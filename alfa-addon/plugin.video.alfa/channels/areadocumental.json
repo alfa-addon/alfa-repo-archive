@@ -1,0 +1,59 @@
+{
+  "id": "areadocumental",
+  "name": "Area-Documental",
+  "language": "es",
+  "adult": false,
+  "active": true,
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "16/02/2017",
+      "description": "Canal reparado ya que no funcionaban los enlaces"
+    },
+    {
+      "date": "01/07/2016",
+      "description": "Eliminado código innecesario."
+    }
+  ],
+  "banner": "areadocumental.png",
+  "thumbnail": "areadocumental.png",
+  "categories": [
+    "documentary"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_documentales",
+      "type": "bool",
+      "label": "Incluir en Novedades - Documentales",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 3,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Sin color",
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    }
+  ]
+}

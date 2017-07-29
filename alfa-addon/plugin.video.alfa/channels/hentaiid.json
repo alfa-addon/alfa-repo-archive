@@ -1,0 +1,15 @@
+{
+  "id": "hentaiid",
+  "name": "Hentai ID",
+  "active": true,
+  "adult": true,
+  "language": "es",
+  "thumbnail": "https://dl.dropboxusercontent.com/u/30248079/hentai_id.png",
+  "banner": "https://dl.dropboxusercontent.com/u/30248079/hentai_id2.png",
+  "version": 1,
+  "date": "09/03/2017",
+  "changes": "Fix web",
+  "categories": [
+    "adult"
+  ]
+}

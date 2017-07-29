@@ -1,0 +1,43 @@
+{
+    "id": "zentorrents",
+    "name": "Zentorrent",
+    "active": true,
+    "adult": false,
+    "language": "es",
+    "banner": "zentorrents.png",
+    "thumbnail": "http://s6.postimg.org/9zv90yjip/zentorrentlogo.jpg",
+    "version": 1,
+    "changes": [
+        {
+            "date": "07/12/2016",
+            "description": "Correciones código. Adaptación a Infoplus"
+        },
+        {
+            "date": "03/04/2017",
+            "description": "Migración a Httptools"
+        },
+        {
+            "date": "30/04/2017",
+            "description": "Correción cambios web"
+        },
+        {
+            "date": "28/06/2017",
+            "description": "Corrección código y algunas mejoras"
+        }
+    ],
+    "categories": [
+        "torrent",
+        "movie",
+        "tvshow"
+    ],
+    "settings": [
+        {
+            "id": "include_in_global_search",
+            "type": "bool",
+            "label": "Incluir en busqueda global",
+            "default": true,
+            "enabled": true,
+            "visible": true
+        }
+    ]
+}

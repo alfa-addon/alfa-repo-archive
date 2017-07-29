@@ -1,0 +1,84 @@
+{
+  "active": true,
+  "clients": [
+    {
+      "id": "plugin.video.xbmctorrent",
+      "name": "xbmctorrent",
+      "url": "plugin://plugin.video.xbmctorrent/play/%s"
+    },
+    {
+      "id": "plugin.video.pulsar",
+      "name": "pulsar",
+      "url": "plugin://plugin.video.pulsar/play?uri=%s"
+    },
+    {
+      "id": "plugin.video.quasar",
+      "name": "quasar",
+      "url": "plugin://plugin.video.quasar/play?uri=%s"
+    },
+    {
+      "id": "plugin.video.stream",
+      "name": "stream",
+      "url": "plugin://plugin.video.stream/play/%s"
+    },
+    {
+      "id": "plugin.video.torrenter",
+      "name": "torrenter",
+      "url": "plugin://plugin.video.torrenter/?action=playSTRM&url=%s"
+    },
+    {
+      "id": "plugin.video.torrentin",
+      "name": "torrentin",
+      "url": "plugin://plugin.video.torrentin/?uri=%s&image="
+    }
+  ],
+  "changes": [
+    {
+      "date": "25/03/2016",
+      "description": "Versión incial"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "(http:\\/\\/(?:.*?)\\.torrent)",
+        "url": "\\1"
+      },
+      {
+        "pattern": "(magnet:\\?xt=urn:[^\"]+)",
+        "url": "\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "torrent",
+  "name": "torrent",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "version": 1
+}

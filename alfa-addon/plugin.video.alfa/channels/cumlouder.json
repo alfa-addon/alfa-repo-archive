@@ -1,0 +1,23 @@
+{
+  "id": "cumlouder",
+  "name": "Cumlouder",
+  "active": true,
+  "adult": true,
+  "language": "es",
+  "thumbnail": "cumlouder.png",
+  "banner": "cumlouder.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "04/05/17",
+      "description": "Corregido, usa proxy en caso de error con https"
+    },
+    {
+      "date": "13/01/17",
+      "description": "First version"
+    }
+  ],
+  "categories": [
+    "adult"
+  ]
+}

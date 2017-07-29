@@ -1,0 +1,20 @@
+{
+  "id": "cartoonlatino",
+  "name": "Cartoon-Latino",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "http://i.imgur.com/wk6fRDZ.png",
+  "banner": "http://i.imgur.com/115c59F.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "07/06/2017",
+      "description": "Primera version del canal"
+    }
+  ],
+  "categories": [
+    "tvshow",
+    "latino"
+  ]
+}

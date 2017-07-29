@@ -1,0 +1,60 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "12/05/2017",
+      "description": "Corregido por cambios en el servidor"
+    },
+    {
+      "date": "07/02/2017",
+      "description": "Corregido por cambios en el servidor y adaptado al uso de httptools"
+    },
+    {
+      "date": "11/01/2017",
+      "description": "Reparado por cambios en el servidor"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "(?:openload|oload).../(?:embed|f)/([0-9a-zA-Z-_]+)",
+        "url": "https://openload.co/embed/\\1/"
+      }
+    ]
+  },
+  "free": true,
+  "id": "openload",
+  "name": "openload",
+  "premium": [
+    "realdebrid"
+  ],
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "thumbnail": "server_openload.png",
+  "version": 1
+}

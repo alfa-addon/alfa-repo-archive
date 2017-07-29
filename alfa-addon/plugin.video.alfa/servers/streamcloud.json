@@ -1,0 +1,69 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "09/03/2017",
+      "description": "No detectaba\"archivo no encontrado\""
+    },
+    {
+      "date": "25/03/2016",
+      "description": "Version inicial"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": {
+      "value": [
+        "http://streamcloud.eu/stylesheets",
+        "http://streamcloud.eu/control",
+        "http://streamcloud.eu/xupload",
+        "http://streamcloud.eu/js",
+        "http://streamcloud.eu/favicon",
+        "http://streamcloud.eu/reward",
+        "http://streamcloud.eu/login",
+        "http://streamcloud.eu/deliver",
+        "http://streamcloud.eu/faq",
+        "http://streamcloud.eu/tos",
+        "http://streamcloud.eu/checkfiles",
+        "http://streamcloud.eu/contact",
+        "http://streamcloud.eu/serve"
+      ]
+    },
+    "patterns": [
+      {
+        "pattern": "(streamcloud.eu/[a-z0-9]+)",
+        "url": "http://\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "streamcloud",
+  "name": "streamcloud",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "thumbnail": "server_streamcloud.png",
+  "version": 1
+}

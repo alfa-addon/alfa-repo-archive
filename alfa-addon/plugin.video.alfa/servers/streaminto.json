@@ -1,0 +1,71 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "22/06/2017",
+      "description": "Actualizado a httptools"
+    },
+    {
+      "date": "25/03/2016",
+      "description": "Versión incial"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": {
+      "value": [
+        "http://streamin.to/embed-theme.html",
+        "http://streamin.to/embed-jquery.html",
+        "http://streamin.to/embed-s.html",
+        "http://streamin.to/embed-images.html",
+        "http://streamin.to/embed-faq.html",
+        "http://streamin.to/embed-embed.html",
+        "http://streamin.to/embed-ri.html",
+        "http://streamin.to/embed-d.html",
+        "http://streamin.to/embed-css.html",
+        "http://streamin.to/embed-js.html",
+        "http://streamin.to/embed-player.html",
+        "http://streamin.to/embed-cgi.html"
+      ]
+    },
+    "patterns": [
+      {
+        "pattern": "streamin.to/(?:embed-)?([a-z0-9A-Z]+)",
+        "url": "http://streamin.to/embed-\\1.html"
+      }
+    ]
+  },
+  "free": true,
+  "id": [
+    "streaminto",
+    "streamin"
+  ],
+  "name": "streamin",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "thumbnail": "server_streaminto.png",
+  "version": 1
+}

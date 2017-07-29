@@ -1,0 +1,37 @@
+{
+  "id": "peliscon",
+  "name": "Peliscon",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "http://imgur.com/yTQRPUJ.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "28/06/2017",
+      "description": "Release"
+    }
+  ],
+  "categories": [
+    "movie",
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

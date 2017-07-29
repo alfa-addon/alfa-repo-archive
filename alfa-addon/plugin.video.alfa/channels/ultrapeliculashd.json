@@ -1,0 +1,50 @@
+{
+    "id": "ultrapeliculashd",
+    "name": "UltraPeliculasHD",
+    "language": "es",
+    "active": true,
+    "adult": false,
+    "banner": "https://s9.postimg.org/5yxsq205r/ultrapeliculashd_banner.png",
+    "thumbnail": "https://s13.postimg.org/d042quw9j/ultrapeliculashd.png",
+    "version": 1,
+    "changes": [
+        {
+            "date": "25/05/2017",
+            "description": "cambios esteticos"
+        },
+        {
+            "date": "09/05/2017",
+            "description": "Fix por cambio de estructra de la pagina"
+        }
+    ],
+    "categories": [
+        "latino",
+        "movie"
+    ],
+    "settings": [
+        {
+            "id": "include_in_global_search",
+            "type": "bool",
+            "label": "Incluir en busqueda global",
+            "default": true,
+            "enabled": true,
+            "visible": true
+        },
+        {
+            "id": "include_in_newest_peliculas",
+            "type": "bool",
+            "label": "Incluir en Novedades - Peliculas",
+            "default": true,
+            "enabled": true,
+            "visible": true
+        },
+        {
+            "id": "include_in_newest_infantiles",
+            "type": "bool",
+            "label": "Incluir en Novedades - Infantiles",
+            "default": true,
+            "enabled": true,
+            "visible": true
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "id": "torrentlocura",
+    "name": "Torrentlocura",
+    "active": true,
+    "adult": false,
+    "language": "es",
+    "banner": "torrentlocura.png",
+    "thumbnail": "http://imgur.com/EWmLS3d.png",
+    "version": 1,
+    "changes": [
+        {
+            "date": "31/12/2016",
+            "description": "Release"
+        },
+        {
+            "date": "13/01/2017",
+            "description": "Añadida info a cápitulos en bloque"
+        },
+        {
+            "date": "04/04/2017",
+            "description": "Reparación cambios web"
+        },
+        {
+            "date": "28/06/2017",
+            "description": "Corrección código y algunas mejoras"
+        }
+    ],
+    "categories": [
+        "torrent",
+        "movie",
+        "tvshow"
+    ],
+    "settings": [
+        {
+            "id": "include_in_global_search",
+            "type": "bool",
+            "label": "Incluir en busqueda global",
+            "default": true,
+            "enabled": true,
+            "visible": true
+        }
+    ]
+}

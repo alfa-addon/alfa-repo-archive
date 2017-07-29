@@ -1,0 +1,33 @@
+{
+  "id": "playpornx",
+  "name": "PlayPornX",
+  "active": true,
+  "adult": true,
+  "language": "es",
+  "thumbnail": "https://s22.postimg.org/eewoqq1w1/playpornx.png",
+  "banner": "https://s12.postimg.org/is9u6fsul/playpornx_banner.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "07/12/2016",
+      "description": "Release."
+    }
+  ],
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    }
+  ]
+}

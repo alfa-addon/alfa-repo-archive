@@ -1,0 +1,38 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "25/03/2016",
+      "description": "Versión incial"
+    }
+  ],
+  "free": false,
+  "id": "alldebrid",
+  "name": "All-Debrid",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "premium",
+      "label": "Activar cuenta premium",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "enabled": "eq(-1,true)",
+      "id": "user",
+      "label": "@30014",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "enabled": "eq(-2,true)+!eq(-1,'')",
+      "hidden": true,
+      "id": "password",
+      "label": "@30015",
+      "type": "text",
+      "visible": true
+    }
+  ],
+  "version": 1
+}

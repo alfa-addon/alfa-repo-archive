@@ -1,0 +1,23 @@
+{
+  "id": "ecarteleratrailers",
+  "name": "Trailers ecartelera",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "ecarteleratrailers.png",
+  "banner": "ecarteleratrailers.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "01/07/2016",
+      "description": "Eliminado código innecesario."
+    }
+  ],
+  "categories": [
+    "movie"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "16/05/2017",
+      "description": "Primera versión"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "streamix.cloud/(?:embed-|)([A-z0-9]+)",
+        "url": "http://streamix.cloud/embed-\\1.html"
+      }
+    ]
+  },
+  "free": true,
+  "id": "streamixcloud",
+  "name": "streamixcloud",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "thumbnail": "http://i.imgur.com/NuD85Py.png?1",
+  "version": 1
+}

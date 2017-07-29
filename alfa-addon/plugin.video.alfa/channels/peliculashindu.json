@@ -1,0 +1,19 @@
+{
+  "id": "peliculashindu",
+  "name": "PeliculasHindu",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "peliculashindu.png",
+  "banner": "peliculashindu.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "25/05/2017",
+      "description": "Primera version"
+    }
+  ],
+  "categories": [
+    "movie"
+  ]
+}

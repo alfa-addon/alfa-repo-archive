@@ -1,0 +1,35 @@
+{
+  "id": "peliculasgratis",
+  "name": "PeliculasGratis",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "http://imgur.com/ThH8Zmk.png",
+  "banner": "peliculasgratis.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "13/01/2017",
+      "description": "Release"
+    },
+    {
+      "date": "04/04/2017",
+      "description": "Reparación cambios web"
+    }
+  ],
+  "categories": [
+    "torrent",
+    "movie",
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

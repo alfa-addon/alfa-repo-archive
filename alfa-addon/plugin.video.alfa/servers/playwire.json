@@ -1,0 +1,48 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "07/05/2016",
+      "description": "Versión incial"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "(?:cdn|config).playwire.com(?:/v2|)/(\\d+)/(?:embed|videos/v2|config)/(\\d+)",
+        "url": "http://config.playwire.com/\\1/videos/v2/\\2/zeus.json"
+      }
+    ]
+  },
+  "free": true,
+  "id": "playwire",
+  "name": "playwire",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "version": 1
+}

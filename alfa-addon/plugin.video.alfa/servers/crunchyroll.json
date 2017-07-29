@@ -1,0 +1,95 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "12/05/2017",
+      "description": "Se añade libreria jscrypto para que funcione en cualquier sistema y deteccion enlaces rtmpe"
+    },
+    {
+      "date": "11/01/2017",
+      "description": "Versión inicial"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "(crunchyroll.com/[^/]+/[^-].*-\\d+).*$",
+        "url": "http://www.\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "crunchyroll",
+  "name": "crunchyroll",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    },
+    {
+      "default": false,
+      "enabled": true,
+      "id": "premium",
+      "label": "Activar cuenta premium",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": "",
+      "enabled": "eq(-1,true)",
+      "id": "user",
+      "label": "@30014",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "default": "",
+      "enabled": "eq(-2,true)+!eq(-1,'')",
+      "hidden": true,
+      "id": "password",
+      "label": "@30015",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": "eq(-3,true)",
+      "id": "sub",
+      "label": "Idioma de subtítulos preferido",
+      "lvalues": [
+        "Español España",
+        "Español Latino",
+        "Inglés",
+        "Italiano",
+        "Francés",
+        "Portugués",
+        "Alemán"
+      ],
+      "type": "list",
+      "visible": true
+    }
+  ],
+  "thumbnail": "http://i.imgur.com/SglkLAb.png?1",
+  "version": 1
+}

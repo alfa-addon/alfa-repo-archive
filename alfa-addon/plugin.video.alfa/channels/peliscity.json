@@ -1,0 +1,25 @@
+{
+  "id": "peliscity",
+  "name": "Peliscity",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "peliscity.png",
+  "banner": "peliscity.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "01/07/2016",
+      "description": "Eliminado código innecesario."
+    }
+  ],
+  "categories": [
+    "movie",
+    "latino",
+    "VOS"
+  ]
+}

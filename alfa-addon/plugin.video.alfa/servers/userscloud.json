@@ -1,0 +1,53 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "21/03/2017",
+      "description": "Primera version"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "userscloud.com/(?:embed-|)([A-z0-9]+)",
+        "url": "http://userscloud.com/\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "userscloud",
+  "name": "userscloud",
+  "premium": [
+    "realdebrid",
+    "alldebrid"
+  ],
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "thumbnail": "http://i.imgur.com/u4W2DgA.png?1",
+  "version": 1
+}

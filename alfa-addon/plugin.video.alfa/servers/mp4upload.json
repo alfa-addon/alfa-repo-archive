@@ -1,0 +1,50 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "25/03/2016",
+      "description": "Versión incial"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": {
+      "value": "http://www.mp4upload.com/embed/embed"
+    },
+    "patterns": [
+      {
+        "pattern": "mp4upload.com/embed-([A-Za-z0-9]+)",
+        "url": "http://www.mp4upload.com/embed-\\1.html"
+      }
+    ]
+  },
+  "free": true,
+  "id": "mp4upload",
+  "name": "mp4upload",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "version": 1
+}

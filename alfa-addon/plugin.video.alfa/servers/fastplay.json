@@ -1,0 +1,65 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "14/06/2017",
+      "description": "Patrón reparado"
+    },
+    {
+      "date": "07/06/2017",
+      "description": "Reparado detección de subtitulos"
+    },
+    {
+      "date": "05/06/2017",
+      "description": "Enlaces a videos encriptados"
+    },
+    {
+      "date": "29/05/2017",
+      "description": "Detección de subtítulos y reparado detección de resolución de videos"
+    },
+    {
+      "date": "16/02/2017",
+      "description": "Primera versión"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "fastplay.(?:to|cc|sx)/(?:flash-|embed-|)([A-z0-9]+)",
+        "url": "http://fastplay.cc/embed-\\1.html"
+      }
+    ]
+  },
+  "free": true,
+  "id": "fastplay",
+  "name": "fastplay",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "thumbnail": "http://i.imgur.com/vHDcd6Y.png?1",
+  "version": 1
+}

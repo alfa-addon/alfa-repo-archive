@@ -1,0 +1,51 @@
+{
+  "id": "wopelis",
+  "name": "WoPelis",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "banner": "https://github.com/master-1970/resources/raw/master/images/bannermenu/wopelis.png",
+  "fanart": "https://github.com/master-1970/resources/raw/master/images/fanart/wopelis.png",
+  "thumbnail": "https://github.com/master-1970/resources/raw/master/images/squares/wopelis.png",
+  "version": 1,
+  "categories": [
+    "movie",
+    "tvshow"
+  ],
+  "changes": [
+    {
+      "date": "23/05/17",
+      "description": "Reparado findvideos, añadidos enlaces descargas"
+    },
+    {
+      "date": "27/03/16",
+      "description": "Version inicial"
+    }
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Películas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_series",
+      "type": "bool",
+      "label": "Incluir en Novedades - Series",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "divxtotal",
+  "name": "Divxtotal",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "http://imgur.com/Madj03A.jpg",
+  "version": 1,
+  "changes": [
+    {
+      "date": "26/04/2017",
+      "description": "Release"
+    },
+    {
+      "date": "28/06/2017",
+      "description": "Correciones código por cambios web"
+    }
+  ],
+  "categories": [
+    "torrent",
+    "movie",
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

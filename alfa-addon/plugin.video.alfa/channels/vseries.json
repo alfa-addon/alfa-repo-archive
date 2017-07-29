@@ -1,0 +1,34 @@
+{
+  "id": "vseries",
+  "name": "V Serie",
+  "active": false,
+  "adult": false,
+  "language": "es",
+  "banner": "vseries.png",
+  "thumbnail": "vseries.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "01/07/2016",
+      "description": "Eliminado código innecesario."
+    }
+  ],
+  "categories": [
+    "movie",
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

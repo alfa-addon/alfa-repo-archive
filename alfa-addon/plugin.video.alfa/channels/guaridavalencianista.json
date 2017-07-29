@@ -1,0 +1,23 @@
+{
+  "id": "guaridavalencianista",
+  "name": "La Guarida valencianista",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "guaridavalencianista.png",
+  "banner": "guaridavalencianista.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "01/07/2016",
+      "description": "Eliminado código innecesario."
+    }
+  ],
+  "categories": [
+    "documentary"
+  ]
+}

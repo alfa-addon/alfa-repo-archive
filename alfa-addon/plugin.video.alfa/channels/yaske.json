@@ -1,0 +1,67 @@
+{
+  "id": "yaske",
+  "name": "Yaske",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "banner": "yaske.png",
+  "fanart": "https://github.com/master-1970/resources/raw/master/images/fanart/yaske.png",
+  "thumbnail": "yaske.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "27/06/17",
+      "description": "Desactivar por falta de contenidos"
+    },
+    {
+      "date": "04/06/17",
+      "description": "Desactivar por falta de contenidos"
+    },
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "01/02/17",
+      "description": "Añadir imagenes, sinopsis, etc..."
+    },
+    {
+      "date": "18/01/17",
+      "description": "Uso de httptools"
+    },
+    {
+      "date": "12/12/16",
+      "description": "Cambios en la web"
+    },
+    {
+      "date": "01/07/16",
+      "description": "Eliminado código innecesario."
+    },
+    {
+      "date": "29/04/16",
+      "description": "Adaptar a Novedades Peliculas e Infantiles"
+    }
+  ],
+  "categories": [
+    "latino",
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Peliculas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_infantiles",
+      "type": "bool",
+      "label": "Incluir en Novedades - Infantiles",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "id": "ver-pelis",
+    "name": "Ver-pelis",
+    "active": true,
+    "adult": false,
+    "language": "es",
+    "thumbnail": "http://imgur.com/lmYQgOu.png",
+    "version": 1,
+    "changes": [
+        {
+            "date": "26/04/2016",
+            "description": "Release"
+        },
+        {
+            "date": "28/06/2017",
+            "description": "Corrección código y algunas mejoras"
+        }
+    ],
+    "categories": [
+        "torrent",
+        "movie",
+        "tvshow"
+    ],
+    "settings": [
+        {
+            "id": "modo_grafico",
+            "type": "bool",
+            "label": "Buscar información extra",
+            "default": true,
+            "enabled": true,
+            "visible": true
+        },
+        {
+            "id": "include_in_global_search",
+            "type": "bool",
+            "label": "Incluir en busqueda global",
+            "default": true,
+            "enabled": true,
+            "visible": true
+        }
+    ]
+}

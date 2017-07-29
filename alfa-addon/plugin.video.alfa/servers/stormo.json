@@ -1,0 +1,53 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "28/01/2017",
+      "description": "Arreglado por cambios en la web"
+    },
+    {
+      "date": "09/07/2016",
+      "description": "Version inicial"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "stormo.tv/(?:videos/|embed/)([0-9]+)",
+        "url": "http://stormo.tv/embed/\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "stormo",
+  "name": "stormo",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "thumbnail": "http://i.imgur.com/mTYCw5E.png",
+  "version": 1
+}

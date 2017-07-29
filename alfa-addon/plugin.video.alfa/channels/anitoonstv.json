@@ -1,0 +1,24 @@
+{
+  "id": "anitoonstv",
+  "name": "AniToons TV",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "http://i.imgur.com/9Zu5NBc.png",
+  "banner": "http://i.imgur.com/JQSXCaB.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "13/06/2017",
+      "description": "Arreglado problema en nombre de servidores"
+    },
+    {
+      "date": "02/06/2017",
+      "description": "Primera Versión"
+    }
+  ],
+  "categories": [
+    "tvshow",
+    "latino"
+  ]
+}

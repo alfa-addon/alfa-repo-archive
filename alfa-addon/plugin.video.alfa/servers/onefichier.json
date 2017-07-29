@@ -1,0 +1,83 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "25/03/2016",
+      "description": "Versión incial"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "([a-z0-9]+\\.1fichier.com)",
+        "url": "https://1fichier.com/?\\1"
+      },
+      {
+        "pattern": "1fichier.com/\\?([a-z0-9]+)",
+        "url": "https://1fichier.com/?\\1"
+      }
+    ]
+  },
+  "free": false,
+  "id": "onefichier",
+  "name": "onefichier",
+  "premium": [
+    "onefichier",
+    "realdebrid",
+    "alldebrid"
+  ],
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    },
+    {
+      "default": false,
+      "enabled": true,
+      "id": "premium",
+      "label": "Activar cuenta premium",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": "",
+      "enabled": "eq(-1,true)",
+      "id": "user",
+      "label": "@30014",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "default": "",
+      "enabled": "eq(-2,true)+!eq(-1,'')",
+      "hidden": true,
+      "id": "password",
+      "label": "@30015",
+      "type": "text",
+      "visible": true
+    }
+  ],
+  "thumbnail": "server_onefichier.png",
+  "version": 1
+}

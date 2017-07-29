@@ -1,0 +1,37 @@
+{
+  "id": "ciberdocumentales",
+  "name": "CiberDocumentales",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "https://s9.postimg.org/secdb5s8v/ciberdocumentales.png",
+  "banner": "https://s1.postimg.org/sa486z0of/ciberdocumentales_banner.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "18/06/2016",
+      "descripcion": "First release"
+    }
+  ],
+  "categories": [
+    "documentary"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_documentales",
+      "type": "bool",
+      "label": "Incluir en Novedades - Documentales",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

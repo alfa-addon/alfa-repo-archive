@@ -1,0 +1,124 @@
+{
+  "id": "cinetux",
+  "name": "Cinetux",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "cinetux.png",
+  "banner": "cinetux.png",
+  "fanart": "cinetux.jpg",
+  "version": 1,
+  "changes": [
+    {
+      "date": "12/05/2017",
+      "description": "Arreglada paginación y enlaces directos"
+    },
+    {
+      "date": "16/02/2017",
+      "description": "Adaptado a httptools y añadidos enlaces directos"
+    },
+    {
+      "date": "08/07/2016",
+      "description": "Correciones y adaptaciones a la nueva version"
+    }
+  ],
+  "categories": [
+    "latino",
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Películas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_documentales",
+      "type": "bool",
+      "label": "Incluir en Novedades - Documentales",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_infantiles",
+      "type": "bool",
+      "label": "Incluir en Novedades - Infantiles",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    },
+    {
+      "id": "filterlanguages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 3,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "VOSE",
+        "Latino",
+        "Español",
+        "No filtrar"
+      ]
+    },
+    {
+      "id": "filterlinks",
+      "type": "list",
+      "label": "Mostrar enlaces de tipo...",
+      "default": 2,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Solo Descarga",
+        "Solo Online",
+        "No filtrar"
+      ]
+    },
+    {
+      "id": "viewmode",
+      "type": "list",
+      "label": "Elegir vista por defecto (Confluence)...",
+      "default": 2,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Sinopsis",
+        "Miniatura",
+        "Lista"
+      ]
+    }
+  ]
+}

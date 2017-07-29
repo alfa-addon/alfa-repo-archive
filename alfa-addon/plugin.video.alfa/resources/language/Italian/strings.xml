@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <!-- Available id from 30000 to 30999 -->
+
+    <!-- ======================================= -->
+    <!-- 30000 to 30049: Configurazione          -->
+    <!-- ======================================= -->
+
+    <!-- Comandi -->
+    <string id="30000"></string>
+    <string id="30001">Controlla aggiornamenti:</string>
+    <string id="30004">Aggiornamento automatico canali:</string>
+    <string id="30201">Actualizar la videoteca al abrir XBMC</string>
+    <string id="30002">Abilita modalità adult:</string>
+    <string id="30003">Abilita logging di debug:</string>
+    <string id="30043">Forza modalità di visualizzazione:</string>
+
+    <!-- Azioni predefinite quando si seleziona un video  -->
+    <string id="30005">Impostazioni predefinite di riproduzione:</string>
+    <string id="30006">Chiedi</string>
+    <string id="30007">Guarda in bassa qualità</string>
+    <string id="30008">Guarda in alta qualità</string>
+    <string id="30009"></string>
+
+    <!-- Visualizzazione logo dei canali -->
+    <string id="30010">Visualizzazione icone dei canali:</string>
+    <string id="30011">Poster (verticale)</string>
+    <string id="30012">Banner (orizzontale)</string>
+    <string id="30200">Square</string>
+
+    <!-- Account premium -->
+    <string id="30014">Nome utente:</string>
+    <string id="30015">Password:</string>
+    <string id="30031">Qualità video (FLV)</string>
+    <string id="30032">Definizione standard (SD)</string>
+    <string id="30033">Alta Definizione (HD)(quando disponibile)</string>
+
+    <string id="30034">Login pagine private:</string>
+    <string id="30035">Password pagine private:</string>
+
+    <!-- Altro -->
+    <string id="30017">Percorso download:</string>
+    <string id="30018">Percorso lista download:</string>
+    <string id="30030">Percorso preferiti:</string>
+    <string id="30067">Percorso di libreria:</string>
+    <string id="30020">Qualità migliore (Youtube)</string>
+    <string id="30021">Abilita sottotitoli:</string>
+    <string id="30022"></string>
+    <string id="30066"></string>
+    <string id="30024">Numero di ricerche da salvare:</string>
+
+    <string id="30019">Filtra canali per lingua:</string>
+    <string id="30025">Tutte le lingue</string>
+    <string id="30026">Spanish</string>
+    <string id="30027">English</string>
+    <string id="30028">Italiano</string>
+    <string id="30029">Portuguese</string>
+    <string id="30046">French</string>
+    <string id="30016">Catalán</string>
+    <string id="30023">Euskera</string>
+    <string id="30036">Gallego</string>
+    <string id="30037">Valenciano</string>
+
+    <string id="30038">Modalità cache:</string>
+    <string id="30039">Auto</string>
+    <string id="30040">Tutti i cache</string>
+    <string id="30041">Nessun cache</string>
+    <string id="30042">Percorso cache:</string>
+
+    <string id="30044">Modalità riproduzione:</string>
+
+    <string id="30013"></string>
+    <string id="30048">Channel name</string>
+    <string id="30049">Channel logo</string>
+    <string id="30045">Video list URL / file</string>
+    <string id="30047">Elements per page</string>
+
+    <!-- Filtri -->
+    <string id="30068">Filtro per server:</string>
+    <string id="30069">White List:</string>
+    <string id="30070">Blacklist:</string>
+    <string id="30071">Per mettere più server che utilizzano "," come separatore</string>
+
+    <!-- =============================================================== -->
+    <!-- 30050 to 30099: Info / Messaggi d' errore                       -->
+    <!-- =============================================================== -->
+    <string id="30050">Errore connessione server</string> <!-- No se puede conectar con el servidor -->
+    <string id="30051">Messaggio d'errore sito web (codice http %d)</string> <!-- El sitio web no funciona correctamente (error http %d) -->
+    <string id="30052">Megavideo ha un limite di 72 minuti</string> <!-- Megavideo tiene un límite de reproducción de 72 minutos -->
+    <string id="30053">Per utenti free. Il limite non è applicato agli utenti</string> <!-- Para evitar que los vídeos se corten pasado ese tiempo -->
+    <string id="30054">Necessita il login in un account premium</string> <!-- necesitas una cuenta Premium -->
+    <string id="30055">Video non disponibile</string> <!-- Vídeo no disponible -->
+    <string id="30056">Non ci sono video disponibili nella pagina web</string> <!-- No se han podido localizar videos en la página del sitio web -->
+    <string id="30057">Il video è stato rimosso da %s</string> <!-- El vídeo ya no está en %s -->
+    <string id="30058">Prova un altro server o canale</string> <!-- Prueba en otro servidor o en otro canal -->
+    <string id="30059">Errore sito web</string> <!-- Error en el sitio web -->
+    <string id="30060">Impossibile accedere a causa di un errore del sito</string> <!-- No se puede acceder por un error en el sitio web -->
+    <string id="30061">Qualità non disponibile o video rimosso</string> <!-- La calidad elegida no esta disponible o el video ha sido borrado -->
+    <string id="30062">Prova un' altra qualità</string> <!-- Prueba a reproducir en otra calidad -->
+    <string id="30063">Questo canale è state scaricato ed aggiornato!</string>
+    <string id="30064">Lista ¡Channel aggiornata!</string>
+
+    <string id="30065">Server non supportato</string>
+
+    <!-- =============================================================== -->
+    <!-- 30100 to 30149: Canali generici (Ricerca, downloads, etc.)      -->
+    <!-- =============================================================== -->
+    <string id="30100">Configurazione</string> <!-- Configuración -->
+    <string id="30101">Downloads</string> <!-- Descargas -->
+    <string id="30102">Preferiti</string> <!-- Favoritos -->
+    <string id="30103">Ricerca globale</string> <!-- Buscador -->
+    <string id="30104">Aiuto</string> <!-- Ayuda -->
+
+    <string id="30105">Rimosso dai preferiti</string> <!-- Se ha quitado de favoritos -->
+    <string id="30106">Rimosso dalla lista download</string> <!-- Se ha quitado de la lista de descargas -->
+    <string id="30107">Spostato nella lista download</string> <!-- Ha pasado de nuevo a la lista de descargas -->
+    <string id="30108">Aggiunto ai preferiti</string> <!-- se ha añadido a favoritos -->
+    <string id="30109">Aggiunto alla lista download</string> <!-- se ha añadido a la lista de descargas -->
+    <string id="30110">Cerco trailer per</string>
+    <string id="30111">Riprova ricerca trailer</string><!-- Reintentar búsqueda de trailer para -->
+    <string id="30112">Inserisci titolo da cercare</string> <!-- Introduce el Titulo a buscar -->
+    <string id="30113">Modifica titolo attuale per affinare la ricerca</string> <!-- Modifica el titulo para refinar la búsqueda -->
+    <string id="30114">Trailer non trovato</string> <!-- Trailer no encontrado -->
+    <string id="30115">Trailer per %s</string> <!-- El Trailer para %s -->
+    <string id="30116">Non può essere trovato</string> <!-- no se ha podido localizar. -->
+    <string id="30117">Vuoi refiner la ricerca utilizzando la tastiera?</string> <!-- ¿Quieres refinar la búsqueda con el teclado? -->
+    <string id="30135">Aggiunto alla libreria</string>
+
+    <string id="30130">Nuovo</string>
+    <string id="30118">Canali</string>
+    <string id="30119">Scegli una categoria</string>
+    <string id="30120">Scegli una lingua</string>
+    <string id="30121">Tutto</string>
+    <string id="30122">Film</string>
+    <string id="30123">Show televisivi</string>
+    <string id="30124">Anime</string>
+    <string id="30125">Documentari</string>
+    <string id="30136">Versioni originali</string>
+    <string id="30126">Adulti</string>
+    <string id="30127">Latino</string>
+    <string id="30128">Cerca trailer</string>
+    <string id="30129">Adulto</string>
+    <string id="30131">Libreria</string>
+    <string id="30132">Tema</string>
+    <string id="30133">Internet</string>
+    <string id="30134">Nuovi</string>
+
+    <!-- =============================================================== -->
+    <!-- 30150 to 30199: Menù azioni / Menù contestuale                  -->
+    <!-- =============================================================== -->
+    <string id="30150">Guarda in alta qualità</string> <!-- Ver en calidad alta -->
+    <string id="30151">Guarda il video</string> <!-- Ver en calidad normal -->
+    <string id="30152">Guarda in bassa qualità</string> <!-- Ver en calidad baja -->
+    <string id="30153">Download</string> <!-- Descargar -->
+    <string id="30154">Rimuovi dai preferiti</string> <!-- Quitar de favoritos -->
+    <string id="30155">Aggiungi ai preferiti</string> <!-- Añadir a favoritos -->
+    <string id="30156">Rimuovi dalla lista download</string> <!-- Quitar de lista de descargas -->
+    <string id="30157">Aggiunto alla lista download</string><!--  Añadir a lista de descargas -->
+    <string id="30158"></string> <!-- Enviar a JDownloader -->
+    <string id="30159">Rimuovi dalla lista download definitivamente</string> <!-- Borrar descarga definitivamente -->
+    <string id="30160">Sposta nuovamente nella lista download</string> <!-- Pasar de nuevo a lista de descargas -->
+    <string id="30161">Aggiungi alla videoteca</string> <!-- Añadir a Videoteca -->
+    <string id="30162">Cerca trailer</string> <!-- Buscar Trailer -->
+    <string id="30163">Scegli un' opzione</string> <!-- Elige una opción -->
+    <string id="30164">Cancella questo file</string>
+
+    <!-- =============================================================== -->
+    <!-- 30100 to 30999: Canali individuali                              -->
+    <!-- =============================================================== -->
+
+    <!-- Stringhe menù contestuale -->
+    <string id="30300">Cancella ricerche salvate</string>
+    <string id="30301">Aggingi il canale in diretta ai preferiti</string>
+    <string id="30302">Rimuovi il canale in diretta ai preferiti</string>
+    <string id="30303">Rinomina titolo del canale in diretta</string>
+
+    <!-- Stringhe menù Megalive -->
+    <string id="30401">channels wall</string>
+    <string id="30402">Categories</string>
+    <string id="30403">Favorites channels </string>
+    <string id="30404">Play channel Live by ID</string>
+    <string id="30405">Input channel ID code</string>
+
+    <!-- Stringhe menù categorie Justin.tv -->
+    <string id="30406">Aggiungi ai preferiti Jtv</string>
+    <string id="30407">Rimuovi dai preferiti Jtv</string>
+    <string id="30408"> (Archivi)</string>
+    <string id="30409">Archivi canali video</string>
+    <string id="30410">Guarda canale in diretta</string>
+    <string id="30411">Il canale non esiste o è offline</string>
+    <string id="30412">Il canale non ha archivi video</string>
+    <string id="30413">Video archiviati</string>
+    <string id="30414">Canali in diretta</string>
+    <string id="30415">Inserisci nome canale</string>
+    <string id="30416">Preferiti</string>
+    <string id="30417">Ricerca</string>
+    <string id="30418">Login Justin tv</string>
+    <string id="30419">Tutte le lingue</string>
+    <string id="30420">Filtra per lingua(e)</string>
+    <string id="30421">Tutto</string>
+    <string id="30422">Inserisci Login Justin tv</string>
+    <string id="30423">Il canale [%s] è offline in questo momento</string>
+    <string id="30424">Password Justin.tv</string>
+
+    <!-- =============================================================== -->
+    <!--  Sottotitoli                                                    -->
+    <!-- =============================================================== -->
+    <string id="30430">Sottotitoli</string>
+    <string id="30431">Scelta fonte sottotitoli :</string>
+    <string id="30432">Cartella</string>
+    <string id="30433">File</string>
+    <string id="30434">Tastiera</string>
+    <string id="30435">Directory sottotitoli</string>
+    <string id="30436">File sottotitoli</string>
+    <string id="30437">Premi l' indirizzo</string>
+
+    <!-- =============================================================== -->
+    <!-- Stringhe categoria impostazioni                                 -->
+    <!-- =============================================================== -->
+    <string id="30500">Login</string>
+    <string id="30501">Percorso</string>
+    <string id="30502">Altro</string>
+
+    <!-- Lasciatemi guardare questo -->
+    <string id="40001">Film - Appena aggiunti</string>
+    <string id="40002">Show televisivi - Appena aggiunti</string>
+    <string id="40003">Pagina successiva</string>
+
+    <!-- Stringhe TVShack -->
+    <string id="30900">TVShack</string>
+    <string id="30901">Serie TV (VO)</string>
+    <string id="30902">Film (VO)</string>
+    <string id="30903">Documentari (VO)</string>
+    <string id="30904">Anime (VO)</string>
+    <string id="30905">Musica</string>
+    <string id="30906">Ricerca globale in TVShack</string>
+    <string id="30907">Non sono stati trovati risultati per la ricerca</string>
+    <string id="30908">Serie - %s (%s episodios)</string>
+    <string id="30909">Serie - </string>
+
+    <string id="30910">Cinema - %s (%s)</string>
+    <string id="30911">"Musica - "</string>
+    <string id="30912">Lettura %s...</string>
+    <string id="30913">Non è stato trovato nella lista</string>
+    <string id="30914">Episodio</string>
+    <string id="30915">Episodi</string>
+    <string id="30916">Canzone</string>
+    <string id="30917">Canzoni</string>
+    <string id="30918">(Nuovo)</string>
+    <string id="30919">(Nuovi contenuti)</string>
+
+    <string id="30920">Aggiungi tutti gli episodi alla libreria</string>
+
+    <!-- =============================================================== -->
+    <!-- Configurazione RSS (IAMM, XTreamer e altri)                     -->
+    <!-- =============================================================== -->
+    <string id="31000">Traduttore attivato:</string>
+    <string id="30140">Titolo</string>
+    <string id="30165">Premi OK per modificare…</string>
+    <string id="30166">Salva le modifiche</string>
+    <string id="30167">Lascia</string>
+    <string id="30168">Modifiche applicate</string>
+    <string id="30169">Cerca</string>
+    <string id="30170">Aggiornamento canali:</string>
+</strings>

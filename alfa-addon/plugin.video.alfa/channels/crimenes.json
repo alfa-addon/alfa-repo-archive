@@ -1,0 +1,37 @@
+{
+  "id": "crimenes",
+  "name": "Crimenes Imperfectos",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "banner": "crimenes.png",
+  "thumbnail": "crimenes.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "19/06/2017",
+      "description": "correcion xml"
+    },
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "01/07/2016",
+      "description": "Eliminado código innecesario."
+    }
+  ],
+  "categories": [
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    }
+  ]
+}

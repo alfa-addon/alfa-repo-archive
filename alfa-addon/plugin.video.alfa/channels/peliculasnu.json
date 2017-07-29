@@ -1,0 +1,72 @@
+{
+  "id": "peliculasnu",
+  "name": "Peliculas.Nu",
+  "language": "es",
+  "active": true,
+  "adult": false,
+  "version": 1,
+  "changes": [
+    {
+      "date": "12/05/2017",
+      "description": "Corregidos enlaces directos"
+    },
+    {
+      "date": "07/04/2017",
+      "description": "Subtitulos en videos directos"
+    },
+    {
+      "date": "12/03/2017",
+      "description": "Añadida info de idiomas"
+    },
+    {
+      "date": "16/02/2017",
+      "description": "Versión inicial"
+    }
+  ],
+  "thumbnail": "http://i.imgur.com/2iupwXE.png",
+  "banner": "peliculasnu.png",
+  "categories": [
+    "movie",
+    "vos",
+    "latino"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Películas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 2,
+      "enabled": true,
+      "visible": true,
+      "llvalues": [
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "seriesmeme",
+  "name": "SeriesMeme",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "seriesmeme.png",
+  "banner": "seriesmeme.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "18/05/2017",
+      "description": "Mejora estética agregado modulo tmdb"
+    }
+  ],
+  "categories": [
+    "tvshow",
+    "latino"
+  ]
+}

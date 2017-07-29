@@ -1,0 +1,76 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "28/05/2017",
+      "description": "Reparado por cambio de dominio"
+    },
+    {
+      "date": "06/04/2017",
+      "description": "Añadido deteccion de subtítulos en español e inglés"
+    },
+    {
+      "date": "29/01/2017",
+      "description": "Reparado por cambios, se elimina la detección de enlaces de yaske que ya no se usa"
+    },
+    {
+      "date": "31/08/2015",
+      "description": "Versión inicial"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "/netu/tv/(embed_)(.*?$)",
+        "url": "http://netu.tv/watch_video.php?v=\\2"
+      },
+      {
+        "pattern": "(?:hqq|waaw|netu)(?:\\.tv\\/|\\.watch\\/|\\.php\\?).*?(?:v=|vid=)([A-z0-9]+)",
+        "url": "http://netu.tv/watch_video.php?v=\\1"
+      },
+      {
+        "pattern": "(?:hqq|waaw|netu)(?:\\.tv\\/|\\.watch\\/|\\.php\\?).*hash=([A-z0-9]+)",
+        "url": "http://hqq.tv/player/hash.php?hash=\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": {
+    "value": [
+      "netutv",
+      "netu",
+      "waaw",
+      "hqq"
+    ]
+  },
+  "name": "netutv",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "thumbnail": "server_netutv.png",
+  "version": 1
+}

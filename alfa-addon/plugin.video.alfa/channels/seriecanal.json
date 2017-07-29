@@ -1,0 +1,72 @@
+{
+  "id": "seriecanal",
+  "name": "Seriecanal",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "http://i.imgur.com/EwMK8Yd.png",
+  "banner": "seriecanal.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "08/07/2016",
+      "description": "Corregido el canal, es necesario registrarse, adaptado a la nueva version."
+    }
+  ],
+  "categories": [
+    "tvshow",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "user",
+      "type": "text",
+      "label": "Usuario",
+      "color": "0xFFd50b0b",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "password",
+      "type": "text",
+      "label": "Contraseña",
+      "color": "0xFFd50b0b",
+      "enabled": true,
+      "visible": true,
+      "hidden": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 2,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    }
+  ]
+}

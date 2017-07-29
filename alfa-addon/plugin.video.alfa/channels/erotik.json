@@ -1,0 +1,33 @@
+{
+  "id": "erotik",
+  "name": "Erotik",
+  "active": true,
+  "adult": true,
+  "language": "es",
+  "thumbnail": "http://www.youfreeporntube.com/uploads/custom-logo.png",
+  "banner": "http://www.youfreeporntube.com/uploads/custom-logo.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "26/12/2016",
+      "description": "Release."
+    }
+  ],
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

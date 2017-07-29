@@ -1,0 +1,37 @@
+{
+  "id": "xhamster",
+  "name": "xhamster",
+  "active": true,
+  "adult": true,
+  "language": "es",
+  "banner": "xhamster.png",
+  "thumbnail": "xhamster.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "03/06/2017",
+      "description": "añadido soporte multiples calidades"
+    },
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "05/08/2016",
+      "description": "Eliminado de sección películas."
+    }
+  ],
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

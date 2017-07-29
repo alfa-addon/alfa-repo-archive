@@ -1,0 +1,57 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "13/05/2017",
+      "description": "Corregido orden y calidades"
+    },
+    {
+      "date": "21/02/2017",
+      "description": "Corregido y añadida opcion m3u8"
+    },
+    {
+      "date": "28/07/2016",
+      "description": "Versión inicial"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "(?:datoporn.com|dato.porn)/(?:embed-|)([A-z0-9]+)",
+        "url": "http://dato.porn/embed-\\1.html"
+      }
+    ]
+  },
+  "free": true,
+  "id": "datoporn",
+  "name": "datoporn",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "thumbnail": "http://i.imgur.com/tBSWudd.png?1",
+  "version": 1
+}

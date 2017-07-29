@@ -1,0 +1,53 @@
+{
+  "id": "lacajita",
+  "name": "LaCajita",
+  "language": "es",
+  "active": true,
+  "adult": false,
+  "version": 1,
+  "changes": [
+    {
+      "date": "16/05/2017",
+      "description": "Primera version"
+    }
+  ],
+  "thumbnail": "http://i.imgur.com/LVdupxc.png",
+  "categories": [
+    "movie",
+    "latino",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en búsqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "color": "0xFFd50b0b",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 3,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Sin color",
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    }
+  ]
+}

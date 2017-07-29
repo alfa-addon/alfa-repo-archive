@@ -1,0 +1,23 @@
+{
+  "id": "canalporno",
+  "name": "Canalporno",
+  "active": true,
+  "adult": true,
+  "language": "es",
+  "thumbnail": "http://i.imgur.com/gAbPcvT.png?1",
+  "banner": "canalporno.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "09/01/2017",
+      "description": "Primera version."
+    }
+  ],
+  "categories": [
+    "adult"
+  ]
+}

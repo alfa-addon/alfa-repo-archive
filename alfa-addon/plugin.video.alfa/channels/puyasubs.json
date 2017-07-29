@@ -1,0 +1,59 @@
+{
+  "id": "puyasubs",
+  "name": "PuyaSubs!",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "http://i.imgur.com/aad4psi.png",
+  "banner": "http://i.imgur.com/trFDT39.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "28/05/2017",
+      "description": "Cambio de dominio"
+    },
+    {
+      "date": "09/05/2017",
+      "description": "Corregida seccion lista de torrents y regex de listados"
+    },
+    {
+      "date": "10/11/2016",
+      "description": "Primera versión"
+    }
+  ],
+  "categories": [
+    "anime"
+  ],
+  "settings": [
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 2,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1",
+        "Ninguno"
+      ]
+    },
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra (TMDB)",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_anime",
+      "type": "bool",
+      "label": "Incluir en Novedades - Anime",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

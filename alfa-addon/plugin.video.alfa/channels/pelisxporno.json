@@ -1,0 +1,37 @@
+{
+  "id": "pelisxporno",
+  "name": "Pelisxporno",
+  "active": true,
+  "adult": true,
+  "language": "es",
+  "thumbnail": "http://i.imgur.com/ywMHwat.png",
+  "banner": "pelisxporno.png",
+  "changes": [
+    {
+      "date": "28/05/2017",
+      "description": "Corregido por cambios en toda la web"
+    },
+    {
+      "date": "21/02/2017",
+      "description": "Canal modernizado con los últimos cambios y mejorado"
+    },
+    {
+      "date": "01/07/2016",
+      "description": "Eliminado código innecesario."
+    }
+  ],
+  "version": 1,
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

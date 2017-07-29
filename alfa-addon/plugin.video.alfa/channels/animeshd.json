@@ -1,0 +1,28 @@
+{
+  "id": "animeshd",
+  "name": "AnimesHD",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "https://s21.postimg.org/b43i3ljav/animeshd.png",
+  "banner": "https://s4.postimg.org/lulxulmql/animeshd-banner.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "03/06/2017",
+      "description": "limpieza de codigo"
+    },
+    {
+      "date": "25/05/2017",
+      "description": "cambios esteticos"
+    },
+    {
+      "date": "19/05/2017",
+      "description": "First release"
+    }
+  ],
+  "categories": [
+    "latino",
+    "anime"
+  ]
+}

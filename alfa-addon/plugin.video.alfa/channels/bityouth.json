@@ -1,0 +1,35 @@
+{
+  "id": "bityouth",
+  "name": "Bityouth",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "http://s6.postimg.org/6ash180up/bityoulogo.png",
+  "banner": "bityouth.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "01/07/2016",
+      "description": "Eliminado código innecesario."
+    }
+  ],
+  "categories": [
+    "torrent",
+    "movie",
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

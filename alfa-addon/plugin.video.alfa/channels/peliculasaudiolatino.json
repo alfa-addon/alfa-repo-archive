@@ -1,0 +1,38 @@
+{
+  "id": "peliculasaudiolatino",
+  "name": "Peliculasaudiolatino",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "peliculasaudiolatino.png",
+  "banner": "peliculasaudiolatino.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "01/06/2017",
+      "description": "Reparado patron en play() para algunos servers"
+    },
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "01/07/2016",
+      "description": "Eliminado código innecesario."
+    }
+  ],
+  "categories": [
+    "latino",
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

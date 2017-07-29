@@ -1,0 +1,58 @@
+{
+  "id": "documaniatv",
+  "name": "DocumaniaTV",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "http://i.imgur.com/qMR9sg9.png",
+  "banner": "documaniatv.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "11/07/2016",
+      "description": "Reparadas cuentas de usuario."
+    }
+  ],
+  "categories": [
+    "documentary"
+  ],
+  "settings": [
+    {
+      "id": "include_in_newest_documentales",
+      "type": "bool",
+      "label": "Incluir en Novedades - Documentales",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "documaniatvaccount",
+      "type": "bool",
+      "label": "Usar cuenta de documaniatv",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "documaniatvuser",
+      "type": "text",
+      "label": "Usuario",
+      "color": "0xFFd50b0b",
+      "enabled": "eq(-1,true)",
+      "visible": true
+    },
+    {
+      "id": "documaniatvpassword",
+      "type": "text",
+      "label": "Contraseña",
+      "color": "0xFFd50b0b",
+      "enabled": "!eq(-1,)+eq(-2,true)",
+      "visible": true,
+      "hidden": true
+    }
+  ]
+}

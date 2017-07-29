@@ -1,0 +1,53 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "11/01/2017",
+      "description": "Reparado por cambios"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [],
+    "patterns": [
+      {
+        "pattern": "/video_ext.php\\?oid=([^&]+)(?:&||)id=([^&]+)(?:&||)hash=([a-z0-9]+)",
+        "url": "http://vk.com/video_ext.php?oid=\\1=\\2=\\3"
+      },
+      {
+        "pattern": "(vk\\.[a-z]+\\/video[0-9]+_[0-9]+)",
+        "url": "http://\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "vk",
+  "name": "vk",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "thumbnail": "server_vk.png",
+  "version": 1
+}

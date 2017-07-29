@@ -1,0 +1,300 @@
+{
+  "id": "videolibrary",
+  "name": "Videoteca",
+  "active": false,
+  "adult": false,
+  "language": "es",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "01/07/16",
+      "description": "Eliminado código innecesario."
+    },
+    {
+      "date": "30/04/2016",
+      "description": "Version inicial"
+    }
+  ],
+  "settings": [
+    {
+      "id": "update",
+      "type": "list",
+      "label": "Actualizar la videoteca",
+      "default": 1,
+      "visible": true,
+      "lvalues": [
+        "Nunca",
+        "Al iniciar Kodi",
+        "Una sola vez al día",
+        "Al iniciar Kodi y al menos una vez al día"
+      ]
+    },
+    {
+      "id": "update_wait",
+      "type": "list",
+      "label": "    Esperar antes de actualizar al iniciar kodi",
+      "default": 0,
+      "visible": true,
+      "enabled": "eq(-1,Al iniciar Kodi)|eq(-1,Al iniciar Kodi y al menos una vez al día)",
+      "lvalues": [
+        "No",
+        "10 seg",
+        "20 seg",
+        "30 seg",
+        "60 seg"
+      ]
+    },
+    {
+      "id": "everyday_delay",
+      "type": "list",
+      "label": "    Iniciar actualización programada a partir de las",
+      "default": 1,
+      "visible": true,
+      "enabled": "eq(-2,Una sola vez al día)|eq(-2,Al iniciar Kodi y al menos una vez al día)",
+      "lvalues": [
+        "00:00",
+        "04:00",
+        "08:00",
+        "12:00"
+      ]
+    },
+    {
+      "id": "updatetvshows_interval",
+      "type": "list",
+      "label": "    Buscar nuevos episodios en las series activas",
+      "default": 0,
+      "visible": true,
+      "enabled": "!eq(-3,Nunca)",
+      "lvalues": [
+        "Siempre",
+        "Según su emisión"
+      ]
+    },
+    {
+      "id": "search_new_content",
+      "type": "list",
+      "label": "    Realizar búsqueda de contenido en",
+      "default": 0,
+      "enabled": "!eq(-4,Nunca)",
+      "lvalues": [
+        "La carpeta de cada serie",
+        "Toda la videoteca"
+      ]
+    },
+    {
+      "id": "window_type",
+      "type": "list",
+      "label": "Mostrar los enlaces en",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Ventana convencional",
+        "Ventana emergente"
+      ]
+    },
+    {
+      "id": "max_links",
+      "type": "list",
+      "label": "    Numero máximo de enlaces a mostrar (recomendable para equipos lentos)",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Todos",
+        "30",
+        "60",
+        "90",
+        "120",
+        "150",
+        "180",
+        "210"
+      ]
+    },
+    {
+      "id": "white_list_order",
+      "type": "bool",
+      "label": "    Ordenar segun el orden de la lista blanca",
+      "enabled": true,
+      "visible": true,
+      "default": false
+    },
+    {
+      "id": "quit_channel_name",
+      "type": "bool",
+      "label": "    Quitar el nombre del canal del principio",
+      "enabled": true,
+      "visible": true,
+      "default": false
+    },
+    {
+      "id": "replace_VD",
+      "type": "bool",
+      "label": "    Ventana emergente: Reemplazar \"Ver en\" por \"[V]\" y \"Descargar en\" por \"[D]\"",
+      "enabled": true,
+      "visible": true,
+      "default": false
+    },
+    {
+      "id": "db_mode",
+      "type": "list",
+      "label": "Ubicación de Base de datos",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Local",
+        "Remota"
+      ]
+    },
+    {
+      "id": "xbmc_host",
+      "type": "text",
+      "label": "    Nombre Servidor",
+      "visible": true,
+      "enabled": "eq(-1,Remota)"
+    },
+    {
+      "id": "xbmc_puerto",
+      "type": "text",
+      "label": "    Puerto Servidor",
+      "enabled": "!eq(-1,'')",
+      "visible": true
+    },
+    {
+      "id": "mark_as_watched",
+      "type": "bool",
+      "label": "Marcar automáticamente como visto",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "watched_setting",
+      "type": "list",
+      "label": "    Tiempo necesario del video",
+      "default": 3,
+      "visible": true,
+      "enabled": "eq(-1,true)",
+      "lvalues": [
+        "5 min",
+        "30%",
+        "50%",
+        "80%",
+        "0 seg"
+      ]
+    },
+    {
+      "id": "sync_trakt",
+      "type": "label",
+      "label": "Sincronización con Trakt",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "sync_trakt_watched",
+      "type": "bool",
+      "label": "    Tras marcar como visto el episodio",
+      "default": false,
+      "visible": true,
+      "enabled": "eq(-3,true)"
+    },
+    {
+      "id": "sync_trakt_notification",
+      "type": "bool",
+      "label": "        Mostrar notificación",
+      "default": true,
+      "visible": true,
+      "enabled": "eq(-1,true)"
+    },
+    {
+      "id": "sync_trakt_new_tvshow",
+      "type": "bool",
+      "label": "    Al añadir una serie a la videoteca",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "sync_trakt_new_tvshow_wait",
+      "type": "bool",
+      "label": "        Esperar a que se añada la serie a la videoteca",
+      "default": true,
+      "visible": true,
+      "enabled": "eq(-1,true)"
+    },
+    {
+      "id": "show_all_seasons",
+      "type": "bool",
+      "label": "Mostrar la opción \"Todas las temporadas\"",
+      "default": true
+    },
+    {
+      "id": "no_pile_on_seasons",
+      "type": "list",
+      "label": "No apilar temporadas de series",
+      "default": 1,
+      "lvalues": [
+        "Nunca",
+        "Sólo si hay una temporada",
+        "Siempre"
+      ]
+    },
+    {
+      "id": "ask_channel",
+      "type": "bool",
+      "label": "Mostrar cuadro de selección de canales",
+      "default": false
+    },
+    {
+      "id": "original_title_folder",
+      "type": "list",
+      "label": "Crear directorios en el sistema usando",
+      "default": 0,
+      "lvalues": [
+        "Título localizado",
+        "Título original"
+      ]
+    },
+    {
+      "id": "lab_1",
+      "type": "label",
+      "label": "Al añadir contenido, obtener información de:",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "scraper_movies",
+      "type": "list",
+      "label": "    Peliculas:",
+      "enabled": false,
+      "default": 0,
+      "lvalues": [
+        "TheMovieDB.org",
+        "None"
+      ]
+    },
+    {
+      "id": "scraper_tvshows",
+      "type": "list",
+      "label": "    Series:",
+      "default": 0,
+      "lvalues": [
+        "TheMovieDB.org",
+        "TheTvDB.com"
+      ]
+    },
+    {
+      "id": "tvdb_retry_eng",
+      "type": "bool",
+      "label": "        Si no hay resultados buscar también en Inglés",
+      "default": true,
+      "enabled": "eq(-1,TheTvDB.com)",
+      "visible": true
+    }
+  ]
+}

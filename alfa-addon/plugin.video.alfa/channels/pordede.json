@@ -1,0 +1,108 @@
+{
+  "id": "pordede",
+  "name": "Pordede",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "pordede.png",
+  "banne": "pordede.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "14/05/2017",
+      "description": "Eliminada la necesidad de captcha para el login"
+    },
+    {
+      "date": "09/05/2017",
+      "description": "Corregida sección siguientes capitulos"
+    },
+    {
+      "date": "29/03/2017",
+      "description": "Modificado para loguearse a través de captcha, solo funciona en Kodi"
+    },
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "01/07/2016",
+      "description": "Eliminado código innecesario."
+    }
+  ],
+  "categories": [
+    "movie",
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "pordedeuser",
+      "type": "text",
+      "label": "@30014",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "pordedepassword",
+      "type": "text",
+      "hidden": true,
+      "label": "@30015",
+      "enabled": "!eq(-1,'')",
+      "visible": true
+    },
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": "!eq(-1,'') + !eq(-2,'')",
+      "visible": true
+    },
+    {
+      "id": "pordedesortlinks",
+      "type": "list",
+      "label": "Ordenar enlaces",
+      "default": 0,
+      "enabled": true,
+      "visible": "!eq(-2,'') + !eq(-3,'')",
+      "lvalues": [
+        "No",
+        "Por Valoración",
+        "Por Idioma",
+        "Por Calidad",
+        "Por Idioma y Calidad",
+        "Por Idioma y Valoración",
+        "Por Idioma, Calidad y Valoración"
+      ]
+    },
+    {
+      "id": "pordedeshowlinks",
+      "type": "list",
+      "label": "Mostrar enlaces",
+      "default": 0,
+      "enabled": true,
+      "visible": "!eq(-3,'') + !eq(-4,'')",
+      "lvalues": [
+        "Todos",
+        "Ver online",
+        "Descargar"
+      ]
+    },
+    {
+      "id": "pordedenumberlinks",
+      "type": "list",
+      "label": "Limitar número de enlaces",
+      "default": 0,
+      "enabled": true,
+      "visible": "!eq(-4,'') + !eq(-5,'')",
+      "lvalues": [
+        "No",
+        "5",
+        "10",
+        "15",
+        "20",
+        "25",
+        "30"
+      ]
+    }
+  ]
+}

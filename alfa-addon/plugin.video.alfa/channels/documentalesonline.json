@@ -1,0 +1,32 @@
+{
+  "id": "documentalesonline",
+  "name": "Documentales Online",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "http://i.imgur.com/fsrnC4m.jpg",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/04/2017",
+      "description": "fix novedades"
+    },
+    {
+      "date": "09/03/2017",
+      "description": "nueva web"
+    }
+  ],
+  "categories": [
+    "documentary"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

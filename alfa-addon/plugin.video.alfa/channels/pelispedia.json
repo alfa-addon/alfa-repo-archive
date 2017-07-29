@@ -1,0 +1,86 @@
+{
+  "id": "pelispedia",
+  "name": "PelisPedia",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "fanart": "http://i.imgur.com/9QbyJrf.jpg",
+  "thumbnail": "pelispedia.png",
+  "banner": "pelispedia.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "07/06/17",
+      "description": "Reconoce servidor raptu"
+    },
+    {
+      "date": "21/04/17",
+      "description": "Corregido método play, fix ordenación de episodios"
+    },
+    {
+      "date": "06/04/17",
+      "description": "Se permite configurar sin color, varias correcciones"
+    },
+    {
+      "date": "01/02/17",
+      "description": "Corregido método play"
+    },
+    {
+      "date": "19/07/16",
+      "description": "Corregido el método play"
+    },
+    {
+      "date": "01/07/16",
+      "description": "Eliminado código innecesario."
+    },
+    {
+      "date": "06/06/16",
+      "description": "Añadida info extra de tmdb. Añadido el canal en la busqueda de novedades"
+    }
+  ],
+  "categories": [
+    "movie",
+    "tvshow",
+    "vos"
+  ],
+  "settings": [
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 3,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Sin color",
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    },
+    {
+      "id": "orden_episodios",
+      "type": "bool",
+      "label": "Mostrar los episodios de las series en orden descendente",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Peliculas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "locopelis",
+  "name": "LOCOPELIS",
+  "compatible": {
+    "addon_version": "4.3"
+  },
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "https://s31.postimg.org/5worjw2nv/locopelis.png",
+  "banner": "https://s31.postimg.org/ng87bb9jv/locopelis_banner.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "24/06/2017",
+      "description": "Cambios para autoplay"
+    },
+    {
+      "date": "06/06/2017",
+      "description": "Compatibilidad con autoplay"
+    },
+    {
+      "date": "25/05/2017",
+      "description": "cambios esteticos"
+    },
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "06/12/2016",
+      "description": "Release."
+    }
+  ],
+  "categories": [
+    "latino",
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": false,
+      "visible": false
+    },
+    {
+      "id": "filter_languages",
+      "type": "list",
+      "label": "Mostrar enlaces en idioma...",
+      "default": 0,
+      "enabled": true,
+      "visible": true,
+      "llvalues": [
+        "No filtrar",
+        "Latino",
+        "Español",
+        "VOS"
+      ]
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Peliculas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_infantiles",
+      "type": "bool",
+      "label": "Incluir en Novedades - Infantiles",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

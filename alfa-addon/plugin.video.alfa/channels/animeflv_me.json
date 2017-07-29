@@ -1,0 +1,37 @@
+{
+  "id": "animeflv_me",
+  "name": "Animeflv.ME",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "http://i.imgur.com/x9AdvBx.png",
+  "banner": "http://i.imgur.com/dTZwCPq.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "05/01/2017",
+      "description": "Actualizada url de la opción Novedades. Arreglado un error que impedia que se mostrara un solo resultado al realizar busquedas. Limpieza de código"
+    },
+    {
+      "date": "01/07/2016",
+      "description": "nuevo canal"
+    }
+  ],
+  "categories": [
+    "anime"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": false,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

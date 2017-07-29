@@ -1,0 +1,23 @@
+{
+  "id": "datoporn",
+  "name": "DatoPorn",
+  "language": "es",
+  "active": true,
+  "adult": true,
+  "changes": [
+    {
+      "date": "28/05/2017",
+      "description": "Reparado por cambios en la página"
+    },
+    {
+      "date": "21/02/2017",
+      "description": "Primera versión"
+    }
+  ],
+  "version": 1,
+  "thumbnail": "http://i.imgur.com/tBSWudd.png?1",
+  "banner": "datoporn.png",
+  "categories": [
+    "adult"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "id": "pelisencasa",
+    "name": "PelisEnCasa",
+    "active": true,
+    "adult": false,
+    "language": "es",
+    "thumbnail": "https://s14.postimg.org/iqiq0bxn5/pelisencasa.png",
+    "banner": "https://s18.postimg.org/j775ehbg9/pelisencasa_banner.png",
+    "version": 1,
+    "date": "17/03/2017",
+    "changes": "First release",
+    "categories": [
+        "latino",
+        "movie"
+      ],
+    "settings": [
+      {
+        "id": "include_in_newest_peliculas",
+        "type": "bool",
+        "label": "Incluir en Novedades - Peliculas",
+        "default": true,
+        "enabled": true,
+        "visible": true
+      },
+      {
+        "id": "include_in_newest_infantiles",
+        "type": "bool",
+        "label": "Incluir en Novedades - Infantiles",
+        "default": true,
+        "enabled": true,
+        "visible": true
+      }
+    ]
+}

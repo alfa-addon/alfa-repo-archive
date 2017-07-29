@@ -1,0 +1,89 @@
+{
+  "id": "verseriesynovelas",
+  "name": "Ver Series y Novelas",
+  "active": false,
+  "adult": false,
+  "language": "es",
+  "banner": "verseriesynovelas.png",
+  "thumbnail": "http://i.imgur.com/ZhQknRE.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "17/05/2017",
+      "description": "Canal desactivado por cambio de dominio, a la espera de si lo arreglan"
+    },
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "16/02/2017",
+      "description": "Ligeros cambios para mejorar la carga de enlaces"
+    },
+    {
+      "date": "11/10/2016",
+      "description": "Reparado por cambios en la web, ahora necesita registro"
+    }
+  ],
+  "categories": [
+    "latino",
+    "vos",
+    "tvshow"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_series",
+      "type": "bool",
+      "label": "Incluir en Novedades - Series",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "modo_grafico",
+      "type": "bool",
+      "label": "Buscar información extra",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "perfil",
+      "type": "list",
+      "label": "Perfil de color",
+      "default": 2,
+      "enabled": true,
+      "visible": true,
+      "lvalues": [
+        "Perfil 3",
+        "Perfil 2",
+        "Perfil 1"
+      ]
+    },
+    {
+      "id": "verseriesynovelasuser",
+      "type": "text",
+      "label": "@30014",
+      "default": "",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "verseriesynovelaspassword",
+      "label": "@30015",
+      "type": "text",
+      "default": "",
+      "enabled": "!eq(-1,'')",
+      "hidden": true,
+      "visible": true
+    }
+  ]
+}

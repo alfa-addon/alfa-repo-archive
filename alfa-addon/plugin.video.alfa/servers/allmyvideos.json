@@ -1,0 +1,80 @@
+{
+  "active": true,
+  "changes": [
+    {
+      "date": "04/06/2016",
+      "description": "Reparado, utiliza proxy en caso que salte el geobloqueo"
+    }
+  ],
+  "find_videos": {
+    "ignore_urls": [
+      "http://allmyvideos.net/embed-theme.html",
+      "http://allmyvideos.net/embed-jquery.html",
+      "http://allmyvideos.net/embed-s.html",
+      "http://allmyvideos.net/embed-images.html",
+      "http://allmyvideos.net/embed-faq.html",
+      "http://allmyvideos.net/embed-embed.html",
+      "http://allmyvideos.net/embed-ri.html",
+      "http://allmyvideos.net/embed-d.html",
+      "http://allmyvideos.net/embed-css.html",
+      "http://allmyvideos.net/embed-js.html",
+      "http://allmyvideos.net/embed-player.html",
+      "http://allmyvideos.net/embed-cgi.html",
+      "http://allmyvideos.net/embed-i.html",
+      "http://allmyvideos.net/images",
+      "http://allmyvideos.net/theme",
+      "http://allmyvideos.net/xupload",
+      "http://allmyvideos.net/s",
+      "http://allmyvideos.net/js",
+      "http://allmyvideos.net/jquery",
+      "http://allmyvideos.net/login",
+      "http://allmyvideos.net/make",
+      "http://allmyvideos.net/i",
+      "http://allmyvideos.net/faq",
+      "http://allmyvideos.net/tos",
+      "http://allmyvideos.net/premium",
+      "http://allmyvideos.net/checkfiles",
+      "http://allmyvideos.net/privacy",
+      "http://allmyvideos.net/refund",
+      "http://allmyvideos.net/links",
+      "http://allmyvideos.net/contact"
+    ],
+    "patterns": [
+      {
+        "pattern": "allmyvideos.net/(?:embed-)?([a-z0-9]+)",
+        "url": "http://allmyvideos.net/\\1"
+      }
+    ]
+  },
+  "free": true,
+  "id": "allmyvideos",
+  "name": "allmyvideos",
+  "settings": [
+    {
+      "default": false,
+      "enabled": true,
+      "id": "black_list",
+      "label": "Incluir en lista negra",
+      "type": "bool",
+      "visible": true
+    },
+    {
+      "default": 0,
+      "enabled": true,
+      "id": "favorites_servers_list",
+      "label": "Incluir en lista de favoritos",
+      "lvalues": [
+        "No",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "type": "list",
+      "visible": false
+    }
+  ],
+  "thumbnail": "server_allmyvideos.png",
+  "version": 1
+}

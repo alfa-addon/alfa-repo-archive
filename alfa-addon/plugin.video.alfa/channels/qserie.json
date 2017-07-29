@@ -1,0 +1,28 @@
+{
+  "id": "qserie",
+  "name": "QSerie",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "https://s31.postimg.org/dousrbu9n/qserie.png",
+  "banner": "https://s32.postimg.org/nk1quq1wl/qserie_banner.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "25/05/2017",
+      "description": "cambios esteticos"
+    },
+    {
+      "date": "15/03/2017",
+      "description": "limpieza código"
+    },
+    {
+      "date": "04/01/2017",
+      "description": "Release."
+    }
+  ],
+  "categories": [
+    "latino",
+    "tvshow"
+  ]
+}

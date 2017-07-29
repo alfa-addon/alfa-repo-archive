@@ -1,0 +1,54 @@
+{
+  "id": "pelisfox",
+  "name": "pelisfox",
+  "active": true,
+  "adult": false,
+  "language": "es",
+  "thumbnail": "https://s14.postimg.org/c43etc1lt/pelisfox.png",
+  "banner": "https://s30.postimg.org/p6twg905d/pelisfox-banner.png",
+  "version": 1,
+  "changes": [
+    {
+      "date": "16/06/2017",
+      "description": "Fix pagina siguiente"
+    },
+    {
+      "date": "25/05/2017",
+      "description": "cambios esteticos"
+    },
+    {
+      "date": "05/05/2017",
+      "description": "First release"
+    }
+  ],
+  "categories": [
+    "latino",
+    "movie"
+  ],
+  "settings": [
+    {
+      "id": "include_in_global_search",
+      "type": "bool",
+      "label": "Incluir en busqueda global",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_peliculas",
+      "type": "bool",
+      "label": "Incluir en Novedades - Peliculas",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "id": "include_in_newest_infantiles",
+      "type": "bool",
+      "label": "Incluir en Novedades - Infantiles",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

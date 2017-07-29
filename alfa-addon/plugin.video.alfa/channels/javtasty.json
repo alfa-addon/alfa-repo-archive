@@ -1,0 +1,28 @@
+{
+  "id": "javtasty",
+  "name": "JavTasty",
+  "language": "es",
+  "active": true,
+  "adult": true,
+  "version": 1,
+  "changes": [
+    {
+      "date": "29/04/2017",
+      "description": "Primera versión"
+    }
+  ],
+  "thumbnail": "http://i.imgur.com/OTYwbAa.png?1",
+  "categories": [
+    "adult"
+  ],
+  "settings": [
+    {
+      "id": "menu_info",
+      "type": "bool",
+      "label": "Mostrar menú antes de reproducir con imágenes",
+      "default": true,
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}

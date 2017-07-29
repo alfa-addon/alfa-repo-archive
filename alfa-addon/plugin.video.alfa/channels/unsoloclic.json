@@ -1,0 +1,24 @@
+{
+    "id": "unsoloclic",
+    "name": "Unsoloclic",
+    "active": true,
+    "adult": false,
+    "language": "es",
+    "banner": "unsoloclic.png",
+    "thumbnail": "unsoloclic.png",
+    "version": 1,
+    "changes": [
+        {
+            "date": "15/03/2017",
+            "description": "limpieza código"
+        },
+        {
+            "date": "01/07/2016",
+            "description": "Eliminado código innecesario."
+        }
+    ],
+    "categories": [
+        "movie",
+        "tvshow"
+    ]
+}
