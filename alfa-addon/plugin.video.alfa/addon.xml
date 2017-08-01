@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="0.0.3" provider-name="unknown">
+<addon id="plugin.video.alfa" name="Alfa" version="0.0.4" provider-name="unknown">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -9,16 +9,21 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Sumario en Español</summary>
-    <news>Estos son los cambios para esta versión:
-        - mejortorrent
-        - plusdede
-        - allcalidad
-        - retocados iconos
-        - Nuevo canal: vernovelasonline
-        - Nuevo servidor: downace
-        - Nuevo servidor: gvideo
-        - cinetux: Cambio de estructura
-        - añadido textos para "spanish (mexico)", ya no debe salir los textos en inglés en algunas partes
+    <news>[B]Estos son los cambios para esta versión:[/B][CR]
+      [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
+      [I]- Cinecalidad
+      - Cinefox
+      - Mundoflv
+      - Metaserie
+      - Pelisplanet
+      - flashx
+      - xTheatre
+      - Playpornx[/I][CR]
+      [COLOR green][B]Servidores agregados y arreglos[/B][/COLOR][CR]
+      [I]- Flashx
+      - Streamcherry[/I]
+
+
     </news>
     <description lang="es">Descripción en Español</description>
     <summary lang="en">English summary</summary>
