@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="0.0.5" provider-name="unknown">
+<addon id="plugin.video.alfa" name="Alfa" version="0.0.6" provider-name="unknown">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -9,20 +9,13 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Sumario en Español</summary>
-    <news>[B]Estos son los cambios para esta versión:[/B]
+    <news>[B]Estos son los cambios para esta versión:[/B][CR]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
-      [I]- Cinecalidad
-      - Cinefox
-      - Mundoflv
-      - Metaserie
-      - Pelisplanet
-      - xTheatre
-      - Playpornx[/I]
-      [COLOR green][B]Servidores agregados y arreglos[/B][/COLOR]
-      [I]- Flashx
-      - Streamcherry[/I]
-
-
+      [I]- Elitetorrent
+      - Seriespapaya
+      - Newpc1 -- [COLOR red]Momentáneamente búsqueda deshabilitada[/COLOR][/I][CR]
+      [COLOR green][B]Arreglos internos[/B][/COLOR]
+      [I]- videolibrary_service -- ahora no actualiza una serie de un canal, si está desactivado[/I]
     </news>
     <description lang="es">Descripción en Español</description>
     <summary lang="en">English summary</summary>
