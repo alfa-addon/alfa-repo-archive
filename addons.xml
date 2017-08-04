@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.alfa" name="Alfa" version="0.0.8" provider-name="Alfa Addon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Sumario en Español</summary>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/media/general/ss/1.jpg</screenshot>
+      <screenshot>resources/media/general/ss/2.jpg</screenshot>
+      <screenshot>resources/media/general/ss/3.jpg</screenshot>
+      <screenshot>resources/media/general/ss/4.jpg</screenshot>
+    </assets>
+      <news>[B]Estos son los cambios para esta versión:[/B]
+      [COLOR green][B]Arreglos de canales[/B][/COLOR]
+      [I]- Seriespapaya
+      - Playmax - Gracias a d3v3l0p1n
+      - Seriesblanco - Posible error en versiones anteriores a kodi 16 por https
+      - AnimesHD
+      - Cinetux[/I]
+      [COLOR green][B]Servidor Nuevo[/B][/COLOR]
+      [I]- Vidlox
+      [COLOR green][B]Arreglos internos[/B][/COLOR]
+      [I]- platformtools - posible solución de favoritos
+      - videolibrarytools - solución a añadir películas de varios canales[/I]
+      [COLOR blue]Gracias a devalls por su cooperación en esta release.[/COLOR]
+    </news>
+    <description lang="es">Descripción en Español</description>
+    <summary lang="en">English summary</summary>
+    <description lang="en">English description</description>
+    <disclaimer>[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>foro</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>source</source>
+  </extension>
+  <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
+  </extension>
+</addon>
+
+<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.2" provider-name="Alfa Addon">
+    <extension point="xbmc.addon.repository" name="Alfa-Addon Repo">
+        <info>https://github.com/alfa-addon/repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/alfa-addon/repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/alfa-addon/repo/raw/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Alfa-Addon</summary>
+        <description></description>
+        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.alfa-script" name="Alfa - Script que soluciona problema variables en settings" version="0.0.1" provider-name="Alfa Addon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="script.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Sumario en Español</summary>
+    <description lang="es">Descripción en Español</description>
+    <summary lang="en">English summary</summary>
+    <description lang="en">English description</description>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>foro</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>source</source>
+  </extension>
+</addon>
+</addons>
