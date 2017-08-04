@@ -4,7 +4,7 @@
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="script.py">
-    <provides>video</provides>
+    <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Sumario en Español</summary>
