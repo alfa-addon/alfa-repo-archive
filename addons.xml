@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.alfa" name="Alfa" version="0.0.8" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="0.0.9" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -20,17 +20,15 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Arreglos de canales[/B][/COLOR]
-      [I]- Seriespapaya
-      - Playmax - Gracias a d3v3l0p1n
-      - Seriesblanco - Posible error en versiones anteriores a kodi 16 por https
-      - AnimesHD
-      - Cinetux[/I]
-      [COLOR green][B]Servidor Nuevo[/B][/COLOR]
-      [I]- Vidlox
-      [COLOR green][B]Arreglos internos[/B][/COLOR]
-      [I]- platformtools - posible solución de favoritos
-      - videolibrarytools - solución a añadir películas de varios canales[/I]
-      [COLOR blue]Gracias a devalls por su cooperación en esta release.[/COLOR]
+      [I]- allpeliculas
+      - anitoomstv
+      - playmax
+      - cartoonlatino
+      - metaserie
+      - seriesblanco
+      - cinetux[/I]
+
+      [COLOR blue]Gracias a [COLOR yellow]KoDiGo14[/COLOR] y [COLOR yellow]j2331223[/COLOR] por su colaboración en esta versión.[/COLOR]
     </news>
     <description lang="es">Descripción en Español</description>
     <summary lang="en">English summary</summary>
