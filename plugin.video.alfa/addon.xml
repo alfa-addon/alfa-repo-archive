@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="0.1.0" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="0.1.1" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -18,9 +18,12 @@
       <screenshot>resources/media/general/ss/4.jpg</screenshot>
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
-      [I]- correccion de errores y fix por cambios en web[/I]
+      [COLOR green][B]Canales agreados y arreglos[/B][/COLOR]
+      [I]- cinetux
+      - bajui2
+      - seriesblanco[/I]
 
-      [COLOR blue]Gracias a [COLOR yellow]j2331223[/COLOR] por su colaboración en esta versión.[/COLOR]
+      [COLOR blue]Gracias a [COLOR yellow]devalls[/COLOR] y [COLOR yellow]j2331223[/COLOR] por su colaboración en esta versión.[/COLOR]
     </news>
     <description lang="es">Descripción en Español</description>
     <summary lang="en">English summary</summary>
