@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="1.5.1" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="1.5.2" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,16 +19,15 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales arreglos[/B][/COLOR]
-      [I]- yaske
-      - pelifox
-      - ver-pelis[/I]
+      [I]- ver-pelis
+      - datoporn
+      - playpornx[/I]
       [COLOR green][B]Servidor arreglado[/B][/COLOR]
-      - gvideo
+      - vimeo
+      - downace
       [COLOR green][B]Novedades y mejoras[/B][/COLOR]
       [I] - arreglos internos
-      - Directos - Nueva sección de canales con enlaces directos: Gvideo y vimeo
-      - videoteca - problemas con unicode fixed
-      - compatibilidad con la biblioteca de pelisalacarta[/I]
+      - videoteca - conversion de peliculas fixed[/I]
     </news>
     <description lang="es">Descripción en Español</description>
     <summary lang="en">English summary</summary>
