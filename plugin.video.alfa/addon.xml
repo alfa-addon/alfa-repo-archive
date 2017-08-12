@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="1.5.2" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="1.5.3" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -18,17 +18,15 @@
       <screenshot>resources/media/general/ss/4.jpg</screenshot>
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
-      [COLOR green][B]Canales arreglos[/B][/COLOR]
-      [I]- ver-pelis
-      - datoporn
-      - playpornx[/I]
-      [COLOR green][B]Servidor arreglado[/B][/COLOR]
-      - vimeo
-      - downace
-      [COLOR green][B]Novedades y mejoras[/B][/COLOR]
-      [I] - arreglos internos
-      - videoteca - conversion de peliculas fixed[/I]
-    </news>
+      [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
+      [I]- ver-peliculas
+      - tvseriesdk
+      - oh-pelis
+      - seriesblanco
+      - allcalidad[/I]
+
+      [COLOR green]Gracias a[/COLOR] [COLOR yellow]k991293[/COLOR] [COLOR green]por su colaboración en esta versión[/COLOR]
+      </news>
     <description lang="es">Descripción en Español</description>
     <summary lang="en">English summary</summary>
     <description lang="en">English description</description>
