@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.alfa" name="Alfa" version="1.5.6" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="1.7.0" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -20,14 +20,11 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Arreglos[/B][/COLOR]
-      [I]- hentaiid
-      - hentaienespañol
-      - x18hentai
-      - mp4upload
-      - animeflv
-      - openload
+      [I]- arreglo sección adultos
+      [I]- flashx
       - fixes internos[/I]
-      [COLOR green]Gracias a  [COLOR yellow]jvc99[/COLOR] y [COLOR yellow]msdos[/COLOR] por su colaboración en esta versión[/COLOR]
+
+      [COLOR green]Gracias a [COLOR yellow][B]msdos[/B][/COLOR] por su colaboración en esta versión[/COLOR]
       </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
@@ -58,7 +55,7 @@
     </extension>
 </addon>
 
-<addon id="script.alfa-script" name="Alfa - Script que soluciona problema variables en settings" version="0.0.3" provider-name="Alfa Addon">
+<addon id="script.alfa-script" name="Fix version 1.7.0" version="1.7.0" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -67,9 +64,9 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Sumario en Español</summary>
-    <description lang="es">Descripción en Español</description>
+    <description lang="es">script para la versión 1.7.0 o superior</description>
     <summary lang="en">English summary</summary>
-    <description lang="en">English description</description>
+    <description lang="en">script for version 1.7.x</description>
     <platform>all</platform>
     <license>GNU GPL v3</license>
     <forum>foro</forum>

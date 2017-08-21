@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.alfa-script" name="Alfa - Script que soluciona problema variables en settings" version="0.0.3" provider-name="Alfa Addon">
+<addon id="script.alfa-script" name="Fix version 1.7.0" version="1.7.0" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,9 +8,9 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Sumario en Español</summary>
-    <description lang="es">Descripción en Español</description>
+    <description lang="es">script para la versión 1.7.0 o superior</description>
     <summary lang="en">English summary</summary>
-    <description lang="en">English description</description>
+    <description lang="en">script for version 1.7.x</description>
     <platform>all</platform>
     <license>GNU GPL v3</license>
     <forum>foro</forum>
