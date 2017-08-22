@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.alfa" name="Alfa" version="1.7.0" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="1.9.0" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -20,8 +20,10 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Arreglos[/B][/COLOR]
-      [I]- arreglo sección adultos
-      [I]- flashx
+      [I]- serieslan
+      - streamplay
+      - descargasmix
+      - canalpelis - Canal nuevo
       - fixes internos[/I]
 
       [COLOR green]Gracias a [COLOR yellow][B]msdos[/B][/COLOR] por su colaboración en esta versión[/COLOR]
