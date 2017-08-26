@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="1.9.0" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="1.9.1" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,13 +19,15 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Arreglos[/B][/COLOR]
-      [I]- serieslan
-      - streamplay
-      - descargasmix
-      - canalpelis - Canal nuevo
+      [I]- cinetux
+      - vidoza
+      - canalpelis
+      - pelisplanet
+      - newpct1
+      - pelisplus
+      - torrentlocura - fix para usar videoteca y en mediaserver
       - fixes internos[/I]
-
-      [COLOR green]Gracias a [COLOR yellow][B]msdos[/B][/COLOR] por su colaboración en esta versión[/COLOR]
+      [COLOR green]Gracias a [COLOR yellow][B]xabier100[/B][/COLOR] y [COLOR yellow][B]fermintxu[/B][/COLOR] por su colaboración en esta versión[/COLOR]
       </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
