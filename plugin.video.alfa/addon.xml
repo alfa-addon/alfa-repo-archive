@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.1.2" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.1.3" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,13 +19,12 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
-      » cinecalidad       »      estadepelis
-      » datoporn          »      seriesyonkis
-      » allcalidad          »      allpeliculas
-      » cartoonlatino   »      pasateatorrent
-      » vidz7                 »      zonatorrent
-      » gvideo              »      okru
-      » openload         ¤      arreglos internos
+      » repelis       »      allcalidad
+      » cinetux      »      allpeliculas
+      » hdfull         »      zonatorrent
+      ¤ arreglos internos
+
+      [COLOR green]Gracias a [COLOR yellow]prpeaprendiz[/COLOR] por su colaboración en esta versión[/COLOR]
       </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
