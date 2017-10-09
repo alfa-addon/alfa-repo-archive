@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.2.0" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.2.1" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,11 +19,17 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
-      » playmax                     »           allcalidad
-      » cinetux                       »           allpeliculas
-      » pedropolis                 »           pelisplanet
-      » flashx                         »           gvideo
-      ¤ selector de temas    ¤           arreglos internos
+      » animeflv_me              »           gmobi
+      » hdfull                          »           peliculasrey
+      » peliscity                      »           pelisplanet
+      » bitp                             »           cloudy
+      » canalpelis                  »           cinefox
+      » cinefoxtv                    »           gnula
+      » pedropolis                 »           pelisfox
+      » gamovideo                »           rapidgator
+      » streamplay                »           yourupload
+      » cloudsany                  ¤           arreglos internos
+      
       </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
