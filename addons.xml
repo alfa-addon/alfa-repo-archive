@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.alfa" name="Alfa" version="2.2.2" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.2.3" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -20,18 +20,12 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
-      » maxipelis                »           peliculasaudiolatino
-      » peliculasmx            »           peliscity
-      » repelis                     »           seriesmeme
-      » seriesyonkis           »           verpeliculasnuevas
-      » zonatorrent           »           kabagi/diskokosmico
-      » tiotorrent               »           allcalidad
-      » areadocumental   »           cinetux
-      » hdfull                      »           newpct1
-      » ohpelis                   »           animeyt
-      » flashx                     »           kbagi
-      » gamovideo            »           vidup
+      » animeyt                 »           pelismundo
+      » asialiveaction       »           animeflv_me
+      » newpct1                »           wopelis
+      » gvideo                   »           powvideo
       ¤ arreglos internos
+      [COLOR green]Gracias a [COLOR yellow]Danielr460[/COLOR] y [COLOR yellow]robalo[/COLOR] por su colaboración en esta versión[/COLOR]
       </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
