@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.3.6" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.3.7" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,8 +19,14 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
-      » seriesblanco    »          hdfull
-      » gamovideo      ¤          arreglos internos
+      » anitoonstv        »          asialiveaction
+      » cinehindi           »          danimados
+      » mundiseries     »          pelisculashndu
+      » seodiv               »          serieslan
+      » crunchyroll       »          pelisfox
+      » stormo             ¤          arreglos internos
+      [COLOR green]Gracias a [COLOR yellow]Danielr460, numa00009 y numa00009[/COLOR]
+      por su colaboración en esta versión[/COLOR]
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
