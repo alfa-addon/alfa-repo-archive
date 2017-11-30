@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.alfa" name="Alfa" version="2.4.3" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.4.4" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -11,7 +11,7 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Navega con Kodi por páginas web.</summary>
     <assets>
-      <icon>icon.png</icon>
+      <icon>icon1.png</icon>
       <fanart>fanart.jpg</fanart>
       <screenshot>resources/media/themes/ss/1.jpg</screenshot>
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
@@ -20,11 +20,8 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
-      » cinetux            »          descargasmix
-      » hdfull               »         peliculasdk
-      » pelisfox           »          yaske
-      » gvideo             »          powvideo
-      » yourupload    ¤          arreglos internos
+      » pelisplus            »          pelisplusco
+      » gvideo               ¤          arreglos internos
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
@@ -53,26 +50,5 @@
         <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="script.alfa-script" name="Fix version 1.7.0" version="1.7.0" provider-name="Alfa Addon">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="script.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Sumario en Español</summary>
-    <description lang="es">script para la versión 1.7.0 o superior</description>
-    <summary lang="en">English summary</summary>
-    <description lang="en">script for version 1.7.x</description>
-    <platform>all</platform>
-    <license>GNU GPL v3</license>
-    <forum>foro</forum>
-    <website>web</website>
-    <email>my@email.com</email>
-    <source>source</source>
-  </extension>
 </addon>
 </addons>
