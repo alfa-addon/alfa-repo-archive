@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.4.17" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.4.18" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,7 +19,9 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
-      » pelisplusco
+      » seriesblanco   » rapidvideo
+      » kbagi                 » bitertv
+      » doomtv             » miltorrents
       ¤ arreglos internos
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
