@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.5.1" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.5.2" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
+    <provides>audio video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Navega con Kodi por páginas web.</summary>
@@ -19,13 +19,12 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
-      » gnula                        » pelismagnet
-      » allcalidad                 » streamcherry
-      » streamango            » pepecine
-      » mejortorrent           » torrentrapid
-      » cinecalidad
+      » allcalidad                       » inkaseries
+      » animemovil                   » descargas2020
+      » descargasmix               » mispelisyseries
       ¤ arreglos internos
-      ¤ Agradecimientos a @prpeaprendiz y @ikarywarriors por colaborar.
+      
+      ¤ Agradecimientos a @GeorgeRamga por animemovil.
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
