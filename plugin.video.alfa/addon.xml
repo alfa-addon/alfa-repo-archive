@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.5.8" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.5.9" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -20,10 +20,16 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
       » torrentrapid                » torrentlocura
-      » mispelisyseries            » descargas2020
+      » mispelisyseries          » descargas2020
+      » mejortorrent              » tvsinpagar
+      » cinefox                         » newpct
+      » peliculasdk                  » netutv
+      » pepecine                      » seriespapaya
+      » doomtv                        » dostream
+      » pelisgratis                    » estream
+      » plusdede
       ¤ arreglos internos
-      
-      ¤ Gracias a la colaboración de @pipcat y @lopezvg en ésta versión
+      ¤ Gracias a @pipcat,@Rhinox117,@lopezvg por colaborar en ésta versión
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
