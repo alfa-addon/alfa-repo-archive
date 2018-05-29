@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.5.15" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.5.16" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -18,17 +18,16 @@
       <screenshot>resources/media/themes/ss/4.jpg</screenshot>
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
-      » dailymotion                     » ver-peliculas
-      » poseidonhd                     » cinedetodo 
-      » wikiseries                         » uptobox
-      » allpeliculas                       » gounlimited
-      » pepecine                          » descargas2020
-      » mejortorrent                   » mispelisyseries
-      » torrentlocura                  » torrentrapid
-      » tumejortorrent               » tvsinpagar
-      » elitetorrent                      » netutv
+      [COLOR green][B]Canales agregados y arreglos[/B][/COLOR] 
+      » clipwatching                     » vidup
+      » allcalidad                           » descargacineclasico
+      » mastorrent                       » tiotorrent
+      » animeshd                          » filebebo
+      » cuevana2                           » Cuevana2español
+      » seriesverde                       » flashx
       ¤ arreglos internos
-      ¤ Agradecimientos a @angedam, @alaquepasa por colaborar con ésta versión.
+
+      ¤ Agradecimientos a @angedam, @alaquepasa, @mrgaturus, @axlt2002 por colaborar con ésta versión.
       
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
