@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.5.20" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.5.21" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -22,12 +22,14 @@
       » grantorrent                     » descargas2020
       » torrentlocura                  » torrentrapid
       » tumejortorrent               » tvsinpagar
-      » mispelisyseries              » kbagi
-      » animemovil                     » pelismagnet
-      » pelisultra                         » seriesdanko
-      » seriespapaya                  » seriesverde
-      » ultrapeliculas                  » wikiseries
-      ¤ arreglos internos
+      » mispelisyseries               » playview
+      » clipwatching                    » cloudvideo
+      » filevideo                            » upvid
+      » vidzella                              » vivo
+      » watchvideo                      » vshare
+      ¤ arreglos internos y actualizado la versión mediaserver
+
+      ¤ Agradecimientos a @alaquepasa y @Pixo506 por colaborar con ésta versión.
       
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
