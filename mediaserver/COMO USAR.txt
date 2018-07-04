@@ -1,0 +1,22 @@
+Alfa-mediaserver
+
+Esta versión de Alfa no necesita de kodi para funcionar, es una versión independiente que solo necesita un navegador web y un equipo (Windows / Linux / Mac) en el cual será instalado) para ver el contenido desde cualquier dispositivo que cuente con un navegador web.
+
+REQUISITOS:
+
+Se necesita que esté instalado python 2.x desde aqui: https://www.python.org/
+
+COMO INSTALAR LA VERSION MEDIASERVER:
+
+-Descargar Alfa-mediaserverxxxx.zip desde el reposotorio de Github:  https://github.com/Intel11/alfa-repo/mediaserver
+-Descomprimir en una carpeta (por ejemplo: c:\carpeta-mediaserver)
+
+COMO INICIAR LA VERSION MEDIASERVER
+
+Para iniciar, ubicarse dentro de la carpeta creada: c:\carpeta-mediaserver\python alfa.py
+
+Y mostrará en pantalla la url a la cual se puede conectar desde cualquier dispositivo que contenga un navegador web.
+
+Ejemplo:
+
+http://192.168.1.10:8080
