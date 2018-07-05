@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.5.23" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.5.24" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,17 +19,7 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR] 
-      » grantorrent                     » descargas2020
-      » torrentlocura                  » torrentrapid
-      » tumejortorrent               » tvsinpagar
-      » mispelisyseries               » mejortorrent
-      » allcalidad                          » poseidonhd
-      » tvvip                                   » animeflv
-      » areadocumental             » cuevana3
-      » newpct1                            » peliculasdk
-      » animeyt                             » pelispedia
-      ¤ arreglos internos y actualizado la versión mediaserver
-      ¤ Agradecimientos al equipo ISOD y @alaquepasa por colaborar con ésta versión.
+      ¤ arreglos internos
       
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
