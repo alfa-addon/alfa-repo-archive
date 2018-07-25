@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.5.28" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.5.29" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,10 +19,14 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR] 
-      ¤ mejortorrent                ¤ mejortorrent1
-      ¤ newpct1                        ¤ inkaseries
-      ¤ wikiseries                      ¤ powvideo
-      ¤ mega
+      ¤ doomtv                    ¤ locopelis
+      ¤ veseriesonline        ¤ hdfull
+      ¤ flashx                       ¤ powvideo
+      ¤ vidoza                      ¤ alltorrent
+      ¤ elitetorrent             ¤ grantorrent
+      ¤ mejortorrent          ¤ newpct1
+      ¤ poseidonhd
+      
       ¤ arreglos internos
       
       ¤ Agradecimientos a @angedam por colaborar en ésta versión
