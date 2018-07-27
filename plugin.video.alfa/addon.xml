@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.5.29" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.6" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -10,7 +10,7 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Navega con Kodi por páginas web.</summary>
     <assets>
-      <icon>icon.png</icon>
+      <icon>logo-cumple.png</icon>
       <fanart>fanart.jpg</fanart>
       <screenshot>resources/media/themes/ss/1.jpg</screenshot>
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
@@ -19,13 +19,10 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR] 
-      ¤ doomtv                    ¤ locopelis
-      ¤ veseriesonline        ¤ hdfull
-      ¤ flashx                       ¤ powvideo
-      ¤ vidoza                      ¤ alltorrent
-      ¤ elitetorrent             ¤ grantorrent
-      ¤ mejortorrent          ¤ newpct1
-      ¤ poseidonhd
+      ¤ goovie                        ¤ retroseriestv
+      ¤ pelisr                          ¤ planetadocumental
+      ¤ mejortorrent            ¤ alltorrent
+      ¤ veseriesonline          ¤ seriesblanco
       
       ¤ arreglos internos
       
