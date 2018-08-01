@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.alfa" name="Alfa" version="2.6" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.6.1" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -20,10 +20,11 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
-      ¤ goovie                        ¤ retroseriestv
-      ¤ pelisr                          ¤ planetadocumental
-      ¤ mejortorrent            ¤ alltorrent
-      ¤ veseriesonline          ¤ seriesblanco
+      ¤ dospelis                      ¤ goodpelis
+      ¤ pelisr                          ¤ sonpelis
+      ¤ jawcloud                     ¤ estream
+      ¤ pelisplusco                  ¤ hdfull
+      ¤ cinemahd
 
       ¤ arreglos internos
 
@@ -43,19 +44,5 @@
   </extension>
   <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
   </extension>
-</addon>
-
-<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.3" provider-name="Alfa Addon">
-    <extension point="xbmc.addon.repository" name="Alfa-Addon Repo">
-        <info>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml</info>
-        <checksum>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/alfa-addon/alfa-repo/raw/master</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Alfa-Addon</summary>
-        <description></description>
-        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-        <platform>all</platform>
-    </extension>
 </addon>
 </addons>
