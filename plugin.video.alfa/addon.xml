@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.7.5" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.7.6" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,19 +19,15 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Canales agregados y arreglos[/B][/COLOR] 
-      ¤ divxtotal                       ¤ elitetorrent
-      ¤ estrenosgo                  ¤ grantorrent
-      ¤ mejortorrent1             ¤ newpct1
-      ¤ pelismagnet                ¤ todopeliculas
-      ¤ allpeliculas                   ¤ puyasubs
-      ¤ yape                              ¤ dilo
-      ¤ goovie                          ¤ pelisipad
-      ¤ seriesblanco               ¤ pepecine
-      ¤ maxipelis24                 ¤ pelisplanet
-      ¤ yts
+      ¤ newpct1                       ¤ zonatorrent
+      ¤ mejortorrent               ¤ mejortorrent1
+      ¤ clasicofilm                   ¤ danimados
+      ¤ pelisplus                      ¤ seriesblancoxyz
+      ¤ pelisplanet                  ¤ canalporno
+      ¤ pelisgratis                   ¤ hdfull
       ¤ arreglos internos
       
-      ¤ Agradecimientos a @wrlopez y @chivmalev por colaborar en ésta versión
+      ¤ Agradecimientos a @chivmalev por colaborar en ésta versión
       
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
