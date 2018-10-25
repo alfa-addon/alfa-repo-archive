@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.7.9" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.7.10" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,17 +19,17 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Arreglos[/B][/COLOR] 
-      ¤ cinetux                       ¤ asialiveaction
-      ¤ dospelis                     ¤ pelisfox
-      ¤ pelisplus                    ¤ pelisplusco
-      ¤ poseidonhd              ¤ yts
+      ¤ anitoons                ¤ goovie           ¤ playporn
+      ¤ gnula                      ¤ pelisr             ¤ peliculonhd
+      ¤ thevid                     ¤ vidcloud       ¤ xhamster 
+      ¤ descargacineclasico
 
       [COLOR green][B]Novedades[/B][/COLOR] 
-      ¤ peliculashd               ¤ peliculonhd
-      ¤ tikiwiki                       ¤ vidcloud
-      ¤ dramasjc                   ¤ xms
+      ¤ repelis.live         ¤ zonaworld     ¤ subtorrents
+      ¤ fex                       ¤ xdrive             ¤ cat3plus
+      ¤ sleazemovies
 
-      ¤Agradecimientos a @diegotcba y @wrlopez por colaborar en ésta versión
+      ¤ Agradecimientos a @diegotcba y @sculkurt por colaborar en ésta versión
       
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
