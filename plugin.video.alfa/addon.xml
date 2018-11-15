@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.7.12" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.7.13" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,17 +19,15 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Arreglos[/B][/COLOR] 
-      ¤ PoseidonHD               ¤ TuPelicula           ¤ SeriesLan
-      ¤ danimados                 ¤ pelisgratis           ¤ rexpelis
-      ¤ sipeliculas                   ¤ yape                     ¤ DivxTotal 
-      ¤ EliteTorrent                 ¤ GranTorrent       ¤ Newpct1 
-      ¤ pelispedia                    ¤ pepecine             ¤ cuevana2
-      ¤ cuevana2español
+      ¤ cinetux                      ¤ porntrex          ¤ repelis
+      ¤ fembed                     ¤ uptobox           ¤ vivo
+      ¤ seriesmetro             ¤ DivxTotal         ¤ EliteTorrent 
+      ¤ EstrenosGo              ¤ GranTorrent       
 
       [COLOR green][B]Novedades[/B][/COLOR] 
-      ¤ AnimeBoom                ¤ SeriesMetro       ¤ Pack canales +18
+      ¤ Pack canales +18
 
-      Agradecimientos a @mrgaturus y @paeznet por colaborar en ésta versión
+      Agradecimientos a @paeznet por colaborar en ésta versión
       
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
