@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.3" provider-name="Alfa Addon">
+<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.4" provider-name="Alfa Addon">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
     <extension point="xbmc.addon.repository" name="Alfa-Addon Repo">
         <info>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml</info>
         <checksum>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml.md5</checksum>
