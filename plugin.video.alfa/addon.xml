@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.7.17" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.7.18" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -10,8 +10,8 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Navega con Kodi por páginas web.</summary>
     <assets>
-      <icon>logo-cumple.png</icon>
-      <fanart>fanart1.jpg</fanart>
+      <icon>logo-n.jpg</icon>
+      <fanart>fanart-xmas.jpg</fanart>
       <screenshot>resources/media/themes/ss/1.jpg</screenshot>
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
       <screenshot>resources/media/themes/ss/3.jpg</screenshot>
@@ -19,15 +19,15 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Arreglos[/B][/COLOR] 
-      ¤ Todopeliculas                        ¤ Maxipelis24                ¤ allcalidad
-      ¤ descargacineclasico            ¤ porntrex                      ¤ seriesmetro
-      ¤ pedropolis                              ¤ thumzilla                     ¤ xms
+      ¤ jkanime                        ¤ newpct1                ¤ descargacineclasico
+      ¤ DoramasMP4             ¤ cine24h                  ¤ ciberpeliculashd
+      ¤ erotik                            ¤ pelis24                   ¤ pelisplay
+      ¤ serieslan                      ¤ anitoonstv
       
       [COLOR green][B]Novedades[/B][/COLOR] 
-      ¤ cine24h                  ¤ hdfilmologia                      ¤ pelis24
-      ¤ pelishd24              ¤ pelisplay
+      ¤ vi2                                  ¤ tvpelis
 
-      ¤ Agradecimientos a @chivmalev por colaborar con ésta versión
+      ¤ Agradecimientos a @w1s0 por colaborar con ésta versión
       
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
