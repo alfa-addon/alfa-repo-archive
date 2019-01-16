@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.7.21" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.7.22" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -18,13 +18,15 @@
       <screenshot>resources/media/themes/ss/4.jpg</screenshot>
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
-      [COLOR green][B]Arreglos[/B][/COLOR] 
-      ¤ Grantorrent                     ¤ Zonatorrent                ¤ pack +18
-      ¤ erotik                                 ¤ pelis24                        ¤ cineasiaenlinea
-      ¤ pelisgratis                        ¤ repelis                         ¤ descargacineclasico
-      ¤ Goovie                              ¤ PelisFox                       ¤ PelisPlus
-      ¤ TvSeriesDk                       ¤ UqLoad                       ¤ Vi2
-      ¤ gnula.biz
+      [COLOR green][B]Arreglos[/B][/COLOR]
+      ¤ maxipelis24                     ¤ dramajc                ¤ pack +18
+      ¤ Grantorrent                     ¤ AnimesHD           ¤ Vi2
+      ¤ Pelisplus                           ¤ TvSeriesDk          ¤ allcalidad
+      ¤ animeflv                           ¤ animefl_ru           ¤ cinetux
+      ¤ peliculasdk                       ¤ pelis24                 ¤ peliscity
+      ¤ pelisgratis                        ¤ seodiv
+      
+      Agradecimientos a @DamianBacalov y @chivmalev por colaborar con ésta de versión
       
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
