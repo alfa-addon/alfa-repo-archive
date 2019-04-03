@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.8.1" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.8.2" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -19,13 +19,12 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ allpelicuas              ¤ asialiveaction       ¤ danimados
-      ¤ MixToon                  ¤ pack +18               ¤ AbToon
-      ¤ hdfull
-
-      [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ uploadmp4              ¤ HomeCine              ¤ CinemaUpload
+      ¤ allcalidad               ¤ animeflv             ¤ streamcloud
+      ¤ pack +18                ¤ divxtotal             ¤ elitetorrent
+      ¤ estrenosgo           ¤ mejortorrent      ¤ mejortorrent1
+      ¤ newpct1                ¤ pelismagnet
  
+      Agradecimientos a @shlibidon y @nyicris por colaborar con esta versión
       
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
