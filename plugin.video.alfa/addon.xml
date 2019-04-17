@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.8.3" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.8.4" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
+    <import addon="script.module.requests"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -19,17 +20,15 @@
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ animeshd               ¤ gamovideo             ¤ elitetorrent
-      ¤ newpct1                  ¤ cinetux                    ¤ asialiveaction
-      ¤ gnula                       ¤ fembed                   ¤ hdfilmologia
-      ¤ gvideo                     ¤ vidlox                       ¤ javtasty
-      ¤ qwertyy
+      ¤ allcalidad                 ¤ gvideo                     ¤ porntrex
+      ¤ sexofilm                   ¤ xtapes                     ¤ dospelis
+      ¤ pelisgratis                ¤ poseidonhd           ¤ seriesmetro
+      ¤ mejortorrent           ¤ animeid                  ¤ jkanime 
+      ¤ puyasub
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ watchseries        ¤ xstreamcdn           ¤ videobb
-      ¤ animespace        ¤ tvanime
+      ¤ jplayer                  ¤ mangoplay              ¤ webpeliculasporno
  
-      Agradecimientos a @shlibidon por colaborar con esta versión
       
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
