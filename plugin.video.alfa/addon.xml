@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.8.22" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.8.23" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -14,7 +14,7 @@
     <summary lang="es">Navega con Kodi por páginas web.</summary>
     <assets>
       <icon>logo2.png</icon>
-      <fanart>fanart-2019.jpg</fanart>
+      <fanart>fanart1.jpg</fanart>
       <screenshot>resources/media/themes/ss/1.jpg</screenshot>
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
       <screenshot>resources/media/themes/ss/3.jpg</screenshot>
@@ -23,12 +23,10 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ abtoons                     ¤ danimados              ¤ HdFull
-      ¤ seriespapaya            ¤ cuevana3                 ¤ homecine
-      ¤ pelkex
-
-      [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ tupelihd
+      ¤ serieslan                       ¤ hdfull                          ¤ megadede
+      ¤ dontorrent                   ¤ newpct1                     ¤ todopeliculas
+      ¤ pelismagnet                ¤ pelisplus                    ¤ tupelihd
+      ¤ descargacineclasico
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
