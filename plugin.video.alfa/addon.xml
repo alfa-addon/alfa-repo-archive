@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="2.8.24" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.8.25" provider-name="Alfa Addon">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -23,11 +23,13 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ serieslan                       ¤ hdfull                          ¤ megadede
-      ¤ dontorrent                   ¤ newpct1                     ¤ todopeliculas
-      ¤ pelismagnet                ¤ pelisplus                    ¤ tupelihd
-      ¤ descargacineclasico
+      ¤ newpct1                             ¤ dontorrent              ¤ Crunchyroll
+      ¤ Area-documental             ¤ Ver-pelis                  ¤ Inkapelis
+      ¤ Pepecine                            ¤ Animeflv                  ¤ Canalpelis
+      ¤ Hdfull                                  ¤ Cliver                        ¤ TuPeliHD    
 
+      [COLOR green][B]Novedades[/B][/COLOR]
+      ¤ Erai-raws                   ¤ Verystream Movies        ¤ AnimeFenix
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
