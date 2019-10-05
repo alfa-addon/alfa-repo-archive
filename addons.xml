@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.alfa" name="Alfa" version="2.8.28" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.8.29" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -14,8 +14,8 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Navega con Kodi por páginas web.</summary>
     <assets>
-      <icon>logo2.png</icon>
-      <fanart>fanart1.jpg</fanart>
+      <icon>resources/logo2.png</icon>
+      <fanart>resources/fanart1.jpg</fanart>
       <screenshot>resources/media/themes/ss/1.jpg</screenshot>
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
       <screenshot>resources/media/themes/ss/3.jpg</screenshot>
@@ -46,10 +46,6 @@
   </extension>
   <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
   </extension>
-  <assets>
-    <icon>resources/icon.png</icon>
-    <fanart>resources/fanart1.jpg</fanart>
-  </assets>
 </addon>
 
 <addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.4" provider-name="Alfa Addon">
