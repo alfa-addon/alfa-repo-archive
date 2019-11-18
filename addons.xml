@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.4" provider-name="Alfa Addon">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="Alfa-Addon Repo">
-        <info>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml</info>
-        <checksum>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/alfa-addon/alfa-repo/raw/master</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Alfa-Addon</summary>
-        <description></description>
-        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="plugin.video.alfa" name="Alfa" version="2.9.1" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.8.29" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -41,16 +24,14 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ EstrenoDorama            ¤ Elitetorrent             ¤ Grantorrent
-      ¤ SeriesLan                        ¤ Hdfull                      ¤ Repelis
-      ¤ Cinecalidad                    ¤ Allcalidad                ¤ Seriespapaya
-      ¤ Fanpelis                          ¤ Tupeli                       ¤ Sonpelishd
-      ¤ Poseidon                         ¤ Vepelis                    ¤ Puyasub
-      ¤ Tvanime                          ¤ Animeboom           ¤ Pelisplay
-      ¤ Pepecine                         ¤ locopelis                 ¤ ver-peliculas
-      ¤ tupelihd                           ¤ verpelis                   ¤ +18
+      ¤ Newpct1                  ¤ destotal             ¤ Cinetux
+      ¤ SeriesLan                ¤ Xdede                 ¤ Seriespapaya
+      ¤ Dospelis                  ¤ Wikiseries          ¤ Hdfull
+      ¤ Cinecalidad             ¤ Zoowoman       ¤ Cinecalidad
+      ¤ +18
 
-    Agradecimientos a @DamianBacalov por colaborar con ésta versión de Alfa.
+      [COLOR green][B]Novedades[/B][/COLOR]
+      ¤ Pelisvips
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
@@ -65,5 +46,22 @@
   </extension>
   <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
   </extension>
+</addon>
+
+<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.5" provider-name="Alfa Addon">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Alfa-Addon Repo">
+        <info>https://bitbucket.org/alfa_addon/alfa-repo/raw/master/addons.xml</info>
+        <checksum>https://bitbucket.org/alfa_addon/alfa-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://bitbucket.org/alfa_addon/alfa-repo/raw/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Alfa-Addon</summary>
+        <description></description>
+        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+        <platform>all</platform>
+    </extension>
 </addon>
 </addons>
