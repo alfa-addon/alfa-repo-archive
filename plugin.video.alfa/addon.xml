@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.0.0" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.0.1" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -23,19 +23,14 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Grantorrent               ¤ Pelisplusco           ¤ Cuevana3 
-      ¤ Bloghorror                 ¤ Cuevana3             ¤ Hdfull
-      ¤ Pelisplus                     ¤ Tupelicula            ¤ Wikiseries
-      ¤ Pelisplay                     ¤ +18                       ¤ El Hogar del Aprendiz
+      ¤ Grantorrent               ¤ Xdede           ¤ SeriesDanko 
+      ¤ SeriesFLV
+      ¤ +18
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ [COLOR gold][B]Paquete inicial de soporte a Kodi 19[/B][/COLOR]:
-          - Módulos "core" de Alfa
-          - Canales Torrent, Seriespapaya, Hdfull
-          - Soporte básico de Quasar 
-          - (Elementum ya ha sido convertido por su propietario)
+      ¤ +18
       
-      Agradecimientos a @martinbm76 por colaborar con ésta versión de Alfa
+      Agradecimientos a @mac12m99 por colaborar con ésta versión de Alfa
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
