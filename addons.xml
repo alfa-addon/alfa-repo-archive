@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="script.alfa_update_helper" name="Alfa Update Helper" version="0.0.1" provider-name="Alfa Develop group">
+<addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.1" provider-name="Alfa Develop group">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.xmltodict"/>
@@ -40,12 +40,12 @@
 
 </addon>
 
-<addon id="plugin.video.alfa" name="Alfa" version="3.1.4" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.1.5" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
     <import addon="script.module.html5lib" version="0.999.0"/>
-    <import addon="script.alfa_update_helper" optional="true"/>
+    <import addon="script.alfa-update-helper" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
