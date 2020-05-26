@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="General">
+        <setting id="auto_update" type="bool" label="Buscar actualizaciones automáticamente" default="true"/>
+    </category>
+</settings>
