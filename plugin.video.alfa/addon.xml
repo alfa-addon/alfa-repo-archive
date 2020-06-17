@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.1.6" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.1.7" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -22,16 +22,16 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Allcalidad                               ¤ Cinetux                              ¤ Danimados
-      ¤ Rexpelis                                 ¤ Serieslan                            ¤ Animespace
-      ¤ Doramasmp4                       ¤ Entrepeliculasyseries        ¤ Megadede
-      ¤ Pelisplusco                            ¤ Serieslan                            ¤ Cinetorrent
-      ¤ Divxtotal                               ¤ Grantorrent                        ¤ Mitorrent
-      ¤ Newpct1                               ¤ Pelismagnet                       ¤ Mejoras de compatibilidad con Kodi 19
-      ¤ +18
+      ¤ Allcalidad                               ¤ Cinetux                                ¤ 123pelis
+      ¤ Seriesflv                                 ¤ Pedropolis                           ¤ Entrepeliculasyseries
+      ¤ Dospelis                                ¤ Dilo                                       ¤ Seriemega
+      ¤ Estrenosgo                           ¤ Grantorrent                         ¤ Newpct1
+      ¤ Cine.is                                   ¤ Allpeliculas                           ¤ Poseidonhd
+      ¤ +18                                        ¤ Dontorrent (bloqueos)       ¤ Libtorrent 1.2.7 (Win)  
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Locomotion                          ¤ ClasicoTV                            ¤ Blogger (servidor)
+      ¤ Allpeliculastv                        ¤ Streamtape (servidor)        ¤ Videoko (servidor)
+      ¤ +18
       
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
