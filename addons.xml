@@ -40,7 +40,7 @@
 
 </addon>
 
-<addon id="plugin.video.alfa" name="Alfa" version="3.1.7" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.1.8" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
