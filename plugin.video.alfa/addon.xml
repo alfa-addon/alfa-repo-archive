@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.1.9" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.1.10" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -22,18 +22,14 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Allcalidad                               ¤ Allpeliculastv                                ¤ Tvvip
-      ¤ Mitorrent                               ¤ Rarbg                                            ¤ Zooqle
-      ¤ Hdfull                                     ¤ Retroseriestv                                ¤ Tupelicula
-      ¤ Dospelis                                 ¤ Entrepeliculasyseries                  ¤ Allpeliculas
-      ¤ Pelisplay                                ¤ Aniyet                                            ¤ Poseidonhd
-      ¤ +18                                         ¤ Libtorrent 1.2.7 (Linux_64)  
+      ¤ Pelisgratis                               ¤ Pepecine                                ¤ Poseidonhd
+      ¤ Serieskao                                ¤ Kodi 19: migración Libtorrent para Linux  
+      ¤ +18                                         
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Amazon (servidor)               ¤ Browser externo (Chrome, Chromium, Firefox, Opera)
-      ¤ +18                                        ¤ SeriesKao
+      ¤ Estrenoscinesaa
       
-      Agradecimientos a @k2-br y a @Kaooss por su participación en esta versión
+      Agradecimientos a @k2-br por su participación en esta versión
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
