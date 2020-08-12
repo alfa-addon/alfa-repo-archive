@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.1.11" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.1.12" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -22,14 +22,14 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Areadocumental                        ¤ Estrenosdoramas                         ¤ HDFull
-      ¤ PoseidonHD                               ¤ Grantorrent  
-      ¤ +18                                         
+      ¤ Allpeliculastv                        ¤ Rexpelis                         ¤ Animeflv
+      ¤ HDfull                                    ¤ Pepecine                       ¤ Tvanime
+      ¤ Ultrapeliculashd
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ +18
+      ¤ Dascer (deportes del Motor)           ¤ Pelispanda (torrent LAT)
+      ¤ Libtorrent 1.2.8: Windows, Linux x86 y ARM
       
-      Agradecimientos a @DamianBacalov por su participación en esta versión
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
