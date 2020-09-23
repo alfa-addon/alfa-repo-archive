@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.1" provider-name="Alfa Develop group">
+<addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.2" provider-name="Alfa Develop group">
     <requires>
         <import addon="script.module.requests"/>
         <import addon="script.module.xmltodict"/>
@@ -40,7 +40,7 @@
 
 </addon>
 
-<addon id="plugin.video.alfa" name="Alfa" version="3.2.2" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.2.3" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -63,13 +63,16 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Repelis                                   ¤ Animejl                            ¤ Cuevana3
-      ¤ Pepecine                                ¤ Poseidonhd                    ¤ Seriesdanko
-      ¤ Serieskao                               ¤ DivxTotal                         ¤ NewPct1
+      ¤ Allcalidad                                ¤ Allpeliculas                     ¤ Cineclasicoonline
+      ¤ Pelix                                        ¤ Playview                          ¤ Tucineclasico
+      ¤ Animeflv                                 ¤ Megadede                      ¤ Seriemega
+      ¤ Tvanime                                 ¤ Dontorrent
       ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ 18+
+      ¤ Animeblix                              ¤ Blogdepelis                      ¤ Inkapelis
+      ¤ Peliculasdeprincesas           ¤ Tioanime
+      ¤ 18+                                         ¤ Libtorrent 1.2.10: Win, Linux x86_64, Linux ARM
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
