@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.2.6" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.2.7" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -22,16 +22,15 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Dontorrent                                  ¤ Magnetpelis                               ¤ Newpct1
-      ¤ Pctfenix                                        ¤ BlogHorror                                 ¤ Pelkex
-      ¤ SeriesRetro                                  ¤ Cineclasicoonline                       ¤ Clubdecine
-      ¤ Dangtoons                                  ¤ Fullseriehd                                  ¤ Pepecine
-      ¤ Hdfull                                           ¤ Movidy                                        ¤ Shahid4u
-      ¤ Cinehindi                                     ¤ Cuevana3                                    ¤ Cinetux
-      ¤ 18+
+      ¤ Doramedplay                             ¤ Allcalidad                            ¤ HDfull
+      ¤ Seriespapaya                             ¤ Tvanime                              ¤ Vi2
+      ¤ Watchseries                               ¤ Madeintorrent                   ¤ Magnetpelis
+      ¤ Pctfenix                                      ¤ Pelispanda                          ¤ DosPelis
+      ¤ Seriesflix                                     ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Madeintorrent                            ¤ Doramedplay                             ¤ CinemaT4
+      ¤ Uploader123 (server)               ¤ Streamsb (server)              ¤ Uploadever (server)
+      ¤ HDFullS
       
       Agradecimientos a @DamianBacalov por su colaboración en esta versión
 
