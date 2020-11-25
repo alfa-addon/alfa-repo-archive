@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.2.11" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.3.0" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -22,13 +22,11 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ SeriesFlix                              ¤ DosPelis                              ¤ SeriesKao
-      ¤ Animeblix                             ¤ Dilo                                     ¤ Pelis24
-      ¤ Pelix                                      ¤ Goovie                                ¤ Dixtotal
-      ¤ 18+
+      ¤ Playview                                    ¤ PoseidonHD                                ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Seriesantiguas
+      ¤ Libtorrent 2.0.1: W10-32/64, Linux x64, ARM-32/64
+      ¤ Novedades (rediseño)             ¤ 18+
       
       Agradecimientos a @SistemaRayoXP por su colaboración en esta versión
 
