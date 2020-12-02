@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.3.0" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.3.1" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -13,7 +13,7 @@
     <summary lang="es">Navega con Kodi por páginas web.</summary>
     <assets>
       <icon>resources/icono_3.png</icon>
-      <fanart>resources/fanart1.jpg</fanart>
+      <fanart>resources/fanart-navidad-2020.png</fanart>
       <screenshot>resources/media/themes/ss/1.jpg</screenshot>
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
       <screenshot>resources/media/themes/ss/3.jpg</screenshot>
@@ -22,13 +22,12 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Playview                                    ¤ PoseidonHD                                ¤ 18+
+      ¤ Goovie                                  ¤ Clubdecine                            ¤ Pelisplanet
+      ¤ Pelisvips                               ¤ Playview                                 ¤ Fanpelis
+      ¤ HDFullS                                ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Libtorrent 2.0.1: W10-32/64, Linux x64, ARM-32/64
-      ¤ Novedades (rediseño)             ¤ 18+
-      
-      Agradecimientos a @SistemaRayoXP por su colaboración en esta versión
+      ¤ Veranime
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
