@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.3.4" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.3.5" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -22,17 +22,14 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Gnula                                   ¤ Homecine                                 ¤ Pepecine
-      ¤ Cinetorrent                         ¤ Elitetorrent                               ¤ HDFull
-      ¤ Magnetpelis                       ¤ Mejortorrent                             ¤ Newpct1
-      ¤ Pctfenix                                ¤ Pelisgratis                                ¤ Pelispanda
-      ¤ Seriesflix                              ¤ Subtorrents                              ¤ Zooqle
-      ¤ 18+
+      ¤ Lacartoons                                      ¤ Blog de Pelis                             ¤ Cuevana3
+      ¤ Dontorrent                                      ¤ EstrenosGo                               ¤ HDFull
+      ¤ NewPct1                                          ¤ Movidy                                      ¤ Pelisplus
+      ¤ Veranime                                        ¤ Cliver                                         ¤ Seriespapaya
+      ¤ Inkapelis                                         ¤ Pepecine                                   ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Videossh (server)               ¤ Viwol (server)                            ¤ Libtorrent 2.0.2/1.2.12
-      
-      Agradecimientos a @SistemaRayoXP por su colaboración en esta versión
+      ¤ Torrest (gestor de torrents)
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
