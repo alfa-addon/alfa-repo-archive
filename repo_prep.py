@@ -304,9 +304,10 @@ class Compressor:
                               # clean line of quotation characters so that it is easier to read.
                               header = re.sub( '"','', header )
                               header = re.sub( "'",'', header )
+                              print header
                               
                               # scrape the version number from the line
-                              self.addon_version_number = (( re.compile( "version\=(.+?)[\s+|>]" , re.DOTALL ).findall( header ) )[0]).strip()
+                              self.addon_version_number = (( re.compile( "version\=(.+?)(?:\s+|$)" , re.DOTALL ).findall( header ) )[0]).strip()
               
 
 
