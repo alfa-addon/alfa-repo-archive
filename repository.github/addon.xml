@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.github" name="GitHub TORREST Add-on repository" version="0.0.5" provider-name="i96751414">
+<addon id="repository.github" name="GitHub TORREST Add-on repository" provider-name="i96751414" version="0.0.5">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
         <import addon="script.module.requests"/>
