@@ -1,5 +1,5 @@
 script_name = "repo_prep.py"
-revision_number = 5
+revision_number = 6
 homepage = 'http://forum.xbmc.org/showthread.php?tid=129401'
 script_credits = 'All code copyleft (GNU GPL v3) by Unobtanium @ XBMC Forums'
 
@@ -306,7 +306,7 @@ class Compressor:
                               header = re.sub( "'",'', header )
                               
                               # scrape the version number from the line
-                              self.addon_version_number = (( re.compile( "version\=(.+?) " , re.DOTALL ).findall( header ) )[0]).strip()
+                              self.addon_version_number = (( re.compile( "version\=(.+?)[\s+|>]" , re.DOTALL ).findall( header ) )[0]).strip()
               
 
 
