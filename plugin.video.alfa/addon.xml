@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.4.0" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.4.1" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -22,8 +22,11 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ AnimeFLV                        ¤ Shahid4u                      ¤ Mundodonghua
-      ¤ HDFull                              ¤ 18+
+      ¤ AnimeFLV                            ¤ Blog de pelis                     ¤ CineCalidad
+      ¤ Comamos Ramen              ¤ Mundo Donghua               ¤ Series Antiguas
+      ¤ Series Antiguas                   ¤ SuperGoku                        ¤ HDFull
+      ¤ Subtorrents                         ¤ Jkanime                              ¤ Estrenoscinesaa
+      ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
       ¤ 
