@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.4.2" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.4.3" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -22,12 +22,12 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Seriesflix                            ¤ SuperGoku                   ¤ Divxtotal
-      ¤ Dontorrent                        ¤ HDFull                           ¤ Newpct1
-      ¤ Subtorrents                       ¤ 18+ 
+      ¤ Allcalidad                      ¤ Lacartoons                    ¤ AnimeFLV
+      ¤ HDFull                           ¤ Newpct1                        ¤ Tucineclasico
+      ¤ Pelisplus                       ¤ 18+ 
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Elitetorrent (desactivado)
+      ¤ Peliculasflv                   ¤ PelisMaraton                ¤ Varios canales eliminados
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
