@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.4.7" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.4.8" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -22,14 +22,11 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ ComamosRamen                        ¤ SeriesRetro                       ¤ DivxTotal
-      ¤ Mejortorrent                               ¤ Newpct1                            ¤ Yts
-      ¤ Cuevana3.video                          ¤ Doramedplay                    ¤ Pelispop
-      ¤ Pelisplus                                      ¤ Archiveorg                        ¤ Cinemat4
-      ¤ 18+
+      ¤ Fanpelis                        ¤ Pelisplusco                       ¤ Pelisplay
+      ¤ PctFenix                        ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Cinelibreonline
+      ¤ Pelismart
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>

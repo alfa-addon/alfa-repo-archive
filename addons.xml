@@ -17,6 +17,74 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.alfa" name="Alfa" version="3.4.8" provider-name="Alfa Addon">
+  <requires>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.beautifulsoup4" version="4.5.3"/>
+    <import addon="script.module.html5lib" version="0.999.0"/>
+    <import addon="script.alfa-update-helper" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Navega con Kodi por páginas web.</summary>
+    <assets>
+      <icon>resources/icono_3.png</icon>
+      <fanart>resources/fanart1.jpg</fanart>
+      <screenshot>resources/media/themes/ss/1.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/2.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/3.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/4.jpg</screenshot>
+    </assets>
+      <news>[B]Estos son los cambios para esta versión:[/B]
+
+      [COLOR green][B]Arreglos[/B][/COLOR]
+      ¤ Fanpelis                        ¤ Pelisplusco                       ¤ Pelisplay
+      ¤ PctFenix                        ¤ 18+
+
+      [COLOR green][B]Novedades[/B][/COLOR]
+      ¤ Pelismart
+
+    </news>
+    <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
+    <summary lang="en">Browse web pages using Kodi</summary>
+    <description lang="en">Browse web pages using Kodi, you can easily watch their video content.</description>
+    <disclaimer>[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>foro</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>https://github.com/alfa-addon/addon</source>
+  </extension>
+  <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
+  </extension>
+</addon>
+
+<addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.6" provider-name="Alfa Develop group">
+    <requires>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.xmltodict"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Herramienta de actualización para Alfa</summary>
+        <description lang="es">Si tienes problemas actualizando Alfa utiliza esta herramienta</description>
+        <summary lang="en">Updating tool for Alfa</summary>
+        <description lang="en">If you have problems updating Alfa use this tool</description>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+    <extension point="xbmc.service" library="default.py" start="login|startup">
+    </extension>
+
+</addon>
+
 <addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.6">
     <requires>
         <!--<import addon="xbmc.python" version="3.0.0"/>-->
@@ -43,76 +111,5 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon>
-
-<addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.6" provider-name="Alfa Develop group">
-    <requires>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.xmltodict"/>
-    </requires>
-    <extension point="xbmc.python.script" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="es">Herramienta de actualización para Alfa</summary>
-        <description lang="es">Si tienes problemas actualizando Alfa utiliza esta herramienta</description>
-        <summary lang="en">Updating tool for Alfa</summary>
-        <description lang="en">If you have problems updating Alfa use this tool</description>
-        <platform>all</platform>
-        <assets>
-            <icon>resources/icon.png</icon>
-        </assets>
-    </extension>
-    <extension point="xbmc.service" library="default.py" start="login|startup">
-    </extension>
-
-</addon>
-
-<addon id="plugin.video.alfa" name="Alfa" version="3.4.7" provider-name="Alfa Addon">
-  <requires>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.beautifulsoup4" version="4.5.3"/>
-    <import addon="script.module.html5lib" version="0.999.0"/>
-    <import addon="script.alfa-update-helper" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Navega con Kodi por páginas web.</summary>
-    <assets>
-      <icon>resources/icono_3.png</icon>
-      <fanart>resources/fanart1.jpg</fanart>
-      <screenshot>resources/media/themes/ss/1.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/2.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/3.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/4.jpg</screenshot>
-    </assets>
-      <news>[B]Estos son los cambios para esta versión:[/B]
-
-      [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ ComamosRamen                        ¤ SeriesRetro                       ¤ DivxTotal
-      ¤ Mejortorrent                               ¤ Newpct1                            ¤ Yts
-      ¤ Cuevana3.video                          ¤ Doramedplay                    ¤ Pelispop
-      ¤ Pelisplus                                      ¤ Archiveorg                        ¤ Cinemat4
-      ¤ 18+
-
-      [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Cinelibreonline
-
-    </news>
-    <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
-    <summary lang="en">Browse web pages using Kodi</summary>
-    <description lang="en">Browse web pages using Kodi, you can easily watch their video content.</description>
-    <disclaimer>[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
-    <platform>all</platform>
-    <license>GNU GPL v3</license>
-    <forum>foro</forum>
-    <website>web</website>
-    <email>my@email.com</email>
-    <source>https://github.com/alfa-addon/addon</source>
-  </extension>
-  <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
-  </extension>
 </addon>
 </addons>
