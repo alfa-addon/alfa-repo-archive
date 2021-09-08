@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.6">
+    <requires>
+        <!--<import addon="xbmc.python" version="3.0.0"/>-->
+    </requires>
+    <extension point="xbmc.addon.repository">
+        <info>http://127.0.0.1:61234/addons.xml</info>
+        <checksum>http://127.0.0.1:61234/addons.xml.md5</checksum>
+        <datadir>http://127.0.0.1:61234/</datadir>
+    </extension>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>See https://github.com/i96751414/repository.github/blob/master/LICENSE</license>
+        <source>https://github.com/i96751414/repository.github</source>
+        <summary lang="en">GitHub virtual Add-on repository for TORREST and others</summary>
+        <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates, like TORREST.</description>
+        <summary lang="es">Repositorio GitHub virtual para el Add-on TORREST y otros</summary>
+        <description lang="es">Repositorio configurable que actúa como un proxy para add-ons disponibles en GitHub, como TORREST.</description>
+        <news>
+            - Add support to Kodi 19
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.6" provider-name="Alfa Develop group">
     <requires>
         <import addon="script.module.requests"/>
@@ -23,7 +51,7 @@
 
 </addon>
 
-<addon id="plugin.video.alfa" name="Alfa" version="3.4.19" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.4.20" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -55,11 +83,12 @@
     <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ AnimeFenix                  ¤ SeriesAntiguas                    ¤ SeriesFlix
-      ¤ AllPeliculas                  ¤ 18+
+      ¤ Comamos Ramen                   ¤ Erai-raws                     ¤ SeriesKao
+      ¤ SonPelisHD                             ¤ Supergoku                   ¤ Dontorrent
+      ¤ Madeintorrent                        ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Yestorrent                   ¤ Torrentpelis
+      ¤
 
     </news>
     <assets>
@@ -89,34 +118,6 @@
         <description></description>
         <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
         <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.6">
-    <requires>
-        <!--<import addon="xbmc.python" version="3.0.0"/>-->
-    </requires>
-    <extension point="xbmc.addon.repository">
-        <info>http://127.0.0.1:61234/addons.xml</info>
-        <checksum>http://127.0.0.1:61234/addons.xml.md5</checksum>
-        <datadir>http://127.0.0.1:61234/</datadir>
-    </extension>
-    <extension point="xbmc.python.script" library="default.py"/>
-    <extension point="xbmc.service" library="service.py"/>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>See https://github.com/i96751414/repository.github/blob/master/LICENSE</license>
-        <source>https://github.com/i96751414/repository.github</source>
-        <summary lang="en">GitHub virtual Add-on repository for TORREST and others</summary>
-        <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates, like TORREST.</description>
-        <summary lang="es">Repositorio GitHub virtual para el Add-on TORREST y otros</summary>
-        <description lang="es">Repositorio configurable que actúa como un proxy para add-ons disponibles en GitHub, como TORREST.</description>
-        <news>
-            - Add support to Kodi 19
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
     </extension>
 </addon>
 </addons>
