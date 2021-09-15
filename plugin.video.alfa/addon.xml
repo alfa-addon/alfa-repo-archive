@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.4.20" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.4.21" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -31,9 +31,10 @@
     <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Comamos Ramen                   ¤ Erai-raws                     ¤ SeriesKao
-      ¤ SonPelisHD                             ¤ Supergoku                   ¤ Dontorrent
-      ¤ Madeintorrent                        ¤ 18+
+      ¤ Cinetux                     ¤ Playdede                      ¤ Seriesflix
+      ¤ Divxtotal                   ¤ Grantorrent                 ¤ HDFull
+      ¤ Mejortorrent            ¤ Newpct1                       ¤ Cuevana3video
+      ¤ Allcalidad
 
       [COLOR green][B]Novedades[/B][/COLOR]
       ¤ 
