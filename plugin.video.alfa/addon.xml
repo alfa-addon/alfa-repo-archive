@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.4.23" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.5.0" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -31,22 +31,26 @@
     <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Pctfecnix                      ¤ Yestorrent                     ¤ HDFull
-      ¤ 18+
+      ¤ AnimeFenix                      ¤ AnimeJL                       ¤ Comamos Ramen
+      ¤ DangoToons                    ¤ PelisPlay                      ¤ VerAnime
+      ¤ Dontorrent                       ¤ Subtorrents                ¤ Madeintorrent
+      ¤ Ultrapeliculashd              ¤ Estrenosdoramas       ¤ Pelisplusco
+      ¤ Fanpelis                            ¤ Pelis24                        ¤ Allpeliculas
+      ¤ Clasicotv                           ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ 18+
+      ¤ Zonaleros                         ¤ EstrenosPapaya
+      ¤ Desactivados: Goovie, PelisFox, PelisHD24, PelisVips, Zoowoman
 
     </news>
     <assets>
       <icon>resources/icon.png</icon>
-      <fanart>resources/fanart.jpg</fanart>
+      <fanart>resources/fanctober.jpg</fanart>
       <screenshot>resources/media/screenshots/1.jpg</screenshot>
       <screenshot>resources/media/screenshots/2.jpg</screenshot>
       <screenshot>resources/media/screenshots/3.jpg</screenshot>
       <screenshot>resources/media/screenshots/4.jpg</screenshot>
     </assets>
   </extension>
-  <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
-  </extension>
+  <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup"></extension>
 </addon>
