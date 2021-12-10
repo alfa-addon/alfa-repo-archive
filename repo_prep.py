@@ -8,7 +8,7 @@ import os
 import re
 import shutil
 import zipfile
-import xml.etree.ElementTree as ET
+import lxml.etree as ET
 
 script_name = "repo_prep.py"
 revision_number = 7
@@ -57,7 +57,7 @@ if standalone:
     print("{}  v{}".format(script_name, str(revision_number)))
     print(script_credits)
     print('Homepage and updates: ' + homepage)
-    print()
+    print("")
 
 else:
     # so that we can import stuff from parent dir (settings)
@@ -73,10 +73,13 @@ else:
 
 def is_addon_dir(directory):
     # this function is used by both classes.
-    # very very simple and weak check that it is an addon dir.
-    # intended to be fast, not totally accurate.
-    # skip any file or .svn folder
-    if not os.path.isdir(directory) or directory in [".git", ".svn", "downloads", "mediaserver"]:
+    # simple check that it is an addon dir.
+    # todo: improve the check
+    # skip any hidden folder (starts with dot)
+    # skip any "blacklisted" folders
+    blacklist = ["downloads", "mediaserver"]
+
+    if not os.path.isdir(directory) or directory.startswith(".") or directory in blacklist:
         return False
     else:
         return True
@@ -124,10 +127,10 @@ class Generator:
                     metadata = addon_xml.find(metadata_path)
                     zip_file = [x for x in list(os.listdir(addon)) if x[-4:] == ".zip"]
 
-                    if zip_file and metadata:
+                    if zip_file and metadata is not None:
                         addon_zip = zipfile.ZipFile(os.path.join(addon, zip_file[0]))
                         assets = metadata.find("assets")
-                        assets = assets if assets else []
+                        assets = assets if assets is not None else []
 
                         # Unpack icons for each add-on
                         for asset in assets:
@@ -136,7 +139,7 @@ class Generator:
                             archive_inner_file = "/".join([addon, asset.text])
 
                             if not os.path.exists(res_folder):
-                                os.makedirs(res_folder, exist_ok=True)
+                                os.makedirs(res_folder)
 
                             with open(file, "wb") as f:
                                 f.write(addon_zip.read(archive_inner_file))
@@ -151,14 +154,14 @@ class Generator:
         # only generate files if we found an addon.xml
         if found_an_addon:
             # save files
-            # self._save_file(addons_xml.encode("UTF-8"), self.addons_xml)
-            ET.ElementTree(addons_xml).write(
-                self.addons_xml,
-                encoding="utf-8",
-                xml_declaration=True,
-                short_empty_elements=False
-            )
-            
+            addons_xml_string = ET.tostring(addons_xml,
+                                            encoding="utf-8",
+                                            xml_declaration=True,
+                                            pretty_print=True,
+                                            standalone=True,
+                                            with_tail=False
+                                            )
+            self._save_file(addons_xml_string, self.addons_xml)
             if self._generate_md5_file():
                 # notify user
                 print("Updated addons xml and addons.xml.md5 files")
@@ -189,14 +192,14 @@ class Generator:
 
             return False
 
-    def _save_file(self, data, the_path):
+    def _save_file(self, data, path):
         try:
             # write data to the file
-            open(the_path, "w").write(data)
+            open(path, "w").write(data)
 
         except Exception as e:
             # oops
-            print("An error occurred saving %s file!\n%s" % (the_path, e, ))
+            print("An error occurred saving %s file!\n%s" % (path, e, ))
 
 
 class Compressor:
