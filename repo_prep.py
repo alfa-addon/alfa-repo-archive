@@ -194,8 +194,10 @@ class Generator:
 
     def _save_file(self, data, path):
         try:
+            if int(sys.version[0]) >= 3 and isinstance(data, str):
+                data = bytes(list(ord(x) for x in data))
             # write data to the file
-            open(path, "w").write(data)
+            open(path, "wb").write(data)
 
         except Exception as e:
             # oops
