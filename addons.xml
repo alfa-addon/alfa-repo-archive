@@ -16,6 +16,28 @@
         <platform>all</platform>
     </extension>
 </addon>
+  <addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.6" provider-name="Alfa Develop group">
+    <requires>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.xmltodict"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Herramienta de actualización para Alfa</summary>
+        <description lang="es">Si tienes problemas actualizando Alfa utiliza esta herramienta</description>
+        <summary lang="en">Updating tool for Alfa</summary>
+        <description lang="en">If you have problems updating Alfa use this tool</description>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+    <extension point="xbmc.service" library="default.py" start="login|startup">
+    </extension>
+
+</addon>
   <addon id="plugin.video.alfa" name="Alfa" version="3.6.1" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
@@ -93,27 +115,5 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon>
-  <addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.6" provider-name="Alfa Develop group">
-    <requires>
-        <import addon="script.module.requests"/>
-        <import addon="script.module.xmltodict"/>
-    </requires>
-    <extension point="xbmc.python.script" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="es">Herramienta de actualización para Alfa</summary>
-        <description lang="es">Si tienes problemas actualizando Alfa utiliza esta herramienta</description>
-        <summary lang="en">Updating tool for Alfa</summary>
-        <description lang="en">If you have problems updating Alfa use this tool</description>
-        <platform>all</platform>
-        <assets>
-            <icon>resources/icon.png</icon>
-        </assets>
-    </extension>
-    <extension point="xbmc.service" library="default.py" start="login|startup">
-    </extension>
-
 </addon>
 </addons>
