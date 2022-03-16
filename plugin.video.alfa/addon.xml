@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.6.4" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.6.5" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -31,10 +31,13 @@
     <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Cinecalidad                     ¤ Allcalidad                    ¤ Newpct1
-      ¤ Varios arreglos técnicos
+      ¤ PelixFlix                       ¤ Fanpelis                      ¤ Cuevana3Video
+      ¤ Cuevana3                    ¤ Newpct1                     ¤ Pelismaraton
+      ¤ Allcalidad                     ¤ Grantorrent               ¤ CineCalidad
+      ¤ HDFull                          ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
+      ¤ Dontorrent (2 nuevos clones)        ¤ EliteTorrent (resucitado)
 
     </news>
     <assets>
