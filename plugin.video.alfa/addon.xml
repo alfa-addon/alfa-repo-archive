@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.6.8" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.6.9" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -31,19 +31,18 @@
     <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Alcalidad                          ¤ Caricaturashd              ¤ Cinetux
-      ¤ Danimados                      ¤ Pelisplus                      ¤ Fullseriehd
-      ¤ Henaojara                       ¤ Playdede                      ¤ Allpeliculas
-      ¤ Cinecalidad                     ¤ Cinetorrent                  ¤ Crunchyroll
-      ¤ Cuevana3                        ¤ Cuevana3video            ¤ Divxtotal
-      ¤ Dontorrent                      ¤ Elitetorrent                  ¤ HDFull
-      ¤ Hitokin                            ¤ Mejortorrent                ¤ Mitorrent
-      ¤ Newpct1                         ¤ Pelisplus                       ¤ Supergoku
-      ¤ Torrentpelis                    ¤ Url                                ¤ Watchseries
+      ¤ Serieslan                      ¤ Allcalidad                      ¤ Animespace
+      ¤ Cuevana3video           ¤ Divxtotal                       ¤ Dontorrent
+      ¤ Elitetorrent                  ¤ Ennovelas                     ¤ Fullseriehd
+      ¤ Grantorrent                 ¤ HDFull                           ¤ Magnetpelis
+      ¤ Mejortorrent               ¤ Newpct1                       ¤ Salynpm
+      ¤ Seriesantiguas            ¤ Pelisplanet                    ¤ Allcalidad
       ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Ennovelas 
+      ¤ Dangotoons (desactivado)        ¤ Zooqle (desactivado)
+      ¤ Rexpelis  (reactivación)              ¤ Asialiveaction (reactivación)
+      ¤ 18+
 
     </news>
     <assets>
