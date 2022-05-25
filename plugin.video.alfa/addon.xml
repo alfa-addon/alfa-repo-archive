@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.6.9" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.7.0" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -31,18 +31,13 @@
     <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Serieslan                      ¤ Allcalidad                      ¤ Animespace
-      ¤ Cuevana3video           ¤ Divxtotal                       ¤ Dontorrent
-      ¤ Elitetorrent                  ¤ Ennovelas                     ¤ Fullseriehd
-      ¤ Grantorrent                 ¤ HDFull                           ¤ Magnetpelis
-      ¤ Mejortorrent               ¤ Newpct1                       ¤ Salynpm
-      ¤ Seriesantiguas            ¤ Pelisplanet                    ¤ Allcalidad
-      ¤ 18+
+      ¤ Allcalidad                         ¤ Cinecalidad                             ¤ Cuevana3video
+      ¤ Dontorrent                      ¤ Entrepeliculasyseries             ¤ Estrenospapaya
+      ¤ Grantorrent                     ¤ Newpct1                                  ¤ PoseidonHD
+      ¤ Seriesanimadas              ¤ Subtorrents                             ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Dangotoons (desactivado)        ¤ Zooqle (desactivado)
-      ¤ Rexpelis  (reactivación)              ¤ Asialiveaction (reactivación)
-      ¤ 18+
+      ¤ Soporte inicial para Kodi 20
 
     </news>
     <assets>
