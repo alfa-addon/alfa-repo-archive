@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.6" provider-name="Alfa Addon">
+<addon id="repository.alfa-addon" name="[COLOR red]Alfa Add-on[/COLOR] Repo" version="1.0.7" provider-name="Alfa Development Group">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
-    <extension point="xbmc.addon.repository" name="Alfa-Addon Repo">
-        <info>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml</info>
-        <checksum>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/alfa-addon/alfa-repo/raw/master</datadir>
+    <extension point="xbmc.addon.repository" name="Alfa Add-on Repo">
+        <dir>
+            <info>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml</info>
+            <checksum>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/alfa-addon/alfa-repo/raw/master</datadir>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Alfa-Addon</summary>
-        <description></description>
-        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+        <summary lang="ca">Repositori d'Alfa Add-on</summary>
+        <summary lang="en">Alfa Add-on Repository</summary>
+        <summary lang="es">Repositorio de Alfa Add-on</summary>
+        <summary lang="it">Repository di Alfa Add-on</summary>
+        <summary lang="pt">Repositório de Alfa Add-on</summary>
+        <description lang="ca">Repositori per instal·lar Alfa Addon, un dels principals add-ons de contingut de parla hispana al món, successor al conegut Pelisalacarta-ce. També es proveeix algunes utilitats addicionals.</description>
+        <description lang="en">Repository to install Alfa Addon, one of the main Spanish-speaking content add-ons in the world, successor to the well-known Pelisalacarta-ce. Some additional utilities are also provided.</description>
+        <description lang="es">Repositorio para instalar Alfa Addon, uno de los principales add-ons de contenido de habla hispana en el mundo, sucesor al conocido Pelisalacarta-ce. También se provee de algunas utilidades adicionales.</description>
+        <description lang="it">Repository per installare Alfa Addon, uno dei principali add-on di contenuti di lingua spagnola nel mondo, successore del noto Pelisalacarta-ce. Vengono fornite anche alcune utilità aggiuntive.</description>
+        <description lang="pt">Repositório para instalação do Alfa Addon, um dos principais add-ons de conteúdo em língua espanhola do mundo, sucessor do conhecido Pelisalacarta-ce. Alguns utilitários adicionais também são fornecidos.</description>
+        <disclaimer lang="ca">[COLOR red]Els propietaris i distribuïdors d'aquest complemento no proveeixen ni distribueixen cap contingut mostrat pel complemento ni tenen affiliación alguna amb els proveïdors de l'contingut.[/COLOR]</disclaimer>
+        <disclaimer lang="en">[COLOR red]The owners and submitters to this add-on do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+        <disclaimer lang="es">[COLOR red]Los propietarios y distribuidores de este add-on no proveen ni distribuyen ningún contenido mostrado por el add-on ni tienen afiliación alguna con los proveedores del contenido.[/COLOR]</disclaimer>
+        <disclaimer lang="it">[COLOR red]I proprietari e i distributori di questo add-on aggiuntivo non forniscono o distribuiscono alcun contenuto visualizzato dal add-on aggiuntivo né hanno alcuna affiliazione con i fornitori di contenuti.[/COLOR]</disclaimer>
+        <disclaimer lang="pt">[COLOR red]Os proprietários e distribuidores deste add-on não fornecem ou distribuem qualquer conteúdo exibido pelo add-on nem têm qualquer afiliação com os provedores de conteúdo.[/COLOR]</disclaimer>
         <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
