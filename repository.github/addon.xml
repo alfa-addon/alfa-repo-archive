@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.6">
+<addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.7">
     <requires>
         <!--<import addon="xbmc.python" version="3.0.0"/>-->
     </requires>
@@ -21,7 +21,10 @@
         <summary lang="es">Repositorio GitHub virtual para el Add-on TORREST y otros</summary>
         <description lang="es">Repositorio configurable que actúa como un proxy para add-ons disponibles en GitHub, como TORREST.</description>
         <news>
+            - Add platform check support
+            - Fix arch detection for aarch with 32 bits
             - Add support to Kodi 20
+            - Small improvements (os_platform, logging)
         </news>
         <assets>
             <icon>icon.png</icon>

@@ -52,35 +52,6 @@
   </extension>
   <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup"/>
 </addon>
-  <addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.6">
-    <requires>
-        <!--<import addon="xbmc.python" version="3.0.0"/>-->
-    </requires>
-    <extension point="xbmc.addon.repository">
-        <dir>
-            <info>http://127.0.0.1:61234/addons.xml</info>
-            <checksum>http://127.0.0.1:61234/addons.xml.md5</checksum>
-            <datadir>http://127.0.0.1:61234/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.python.script" library="default.py"/>
-    <extension point="xbmc.service" library="service.py"/>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>See https://github.com/i96751414/repository.github/blob/master/LICENSE</license>
-        <source>https://github.com/i96751414/repository.github</source>
-        <summary lang="en">GitHub virtual Add-on repository for TORREST and others</summary>
-        <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates, like TORREST.</description>
-        <summary lang="es">Repositorio GitHub virtual para el Add-on TORREST y otros</summary>
-        <description lang="es">Repositorio configurable que actúa como un proxy para add-ons disponibles en GitHub, como TORREST.</description>
-        <news>
-            - Add support to Kodi 20
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
   <addon id="repository.alfa-addon" name="[COLOR red]Alfa Add-on[/COLOR] Repo" version="1.0.7" provider-name="Alfa Development Group">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -112,6 +83,38 @@
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+  <addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.7">
+    <requires>
+        <!--<import addon="xbmc.python" version="3.0.0"/>-->
+    </requires>
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info>http://127.0.0.1:61234/addons.xml</info>
+            <checksum>http://127.0.0.1:61234/addons.xml.md5</checksum>
+            <datadir>http://127.0.0.1:61234/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>See https://github.com/i96751414/repository.github/blob/master/LICENSE</license>
+        <source>https://github.com/i96751414/repository.github</source>
+        <summary lang="en">GitHub virtual Add-on repository for TORREST and others</summary>
+        <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates, like TORREST.</description>
+        <summary lang="es">Repositorio GitHub virtual para el Add-on TORREST y otros</summary>
+        <description lang="es">Repositorio configurable que actúa como un proxy para add-ons disponibles en GitHub, como TORREST.</description>
+        <news>
+            - Add platform check support
+            - Fix arch detection for aarch with 32 bits
+            - Add support to Kodi 20
+            - Small improvements (os_platform, logging)
+        </news>
+        <assets>
+            <icon>icon.png</icon>
         </assets>
     </extension>
 </addon>
