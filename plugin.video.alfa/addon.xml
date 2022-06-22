@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.7.1" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.7.2" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -31,9 +31,9 @@
     <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Jkanime                          ¤ Pelisplus                        ¤ Dontorrent
-      ¤ Elitetorrent                    ¤ Grantorrent                   ¤ Newpct1
-      ¤ Playdede                        ¤ 18+
+      ¤ Cuevana3                        ¤ Cuevana3Video                     ¤ Dontorrent
+      ¤ Hdfull                              ¤ HDFulls                                   ¤ Newpct1
+      ¤ Pelispop                          ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
 
