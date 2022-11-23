@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.7.12" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.7.13" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -31,15 +31,11 @@
     <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Allcalidad                          ¤ Animefenix                    ¤ Animeflv
-      ¤ Animeonlineninja            ¤ Cinecalidad                    ¤ Cuevana2espanol
-      ¤ Cuevana3                         ¤ Cuevana3video             ¤ Dontorrent
-      ¤ Filmoves                           ¤ Fullseriehd                     ¤ Grantorrent
-      ¤ Hdfull                                ¤ Hdfulls                           ¤ Inkapelis
-      ¤ Magnetpelis                     ¤ Mobidy                           ¤ Moviesdvdr
-      ¤ Newpct1                           ¤ Pelismaraton                 ¤ Pelispanda
-      ¤ Pelkex                               ¤ Playdede                        ¤ Poseidonhd
-      ¤ Tvanime                            ¤ 18+ 
+      ¤ Animeflv                                ¤ Tvanime                        ¤ Cinecalidad
+      ¤ Cuevana3                              ¤ Dontorrent                   ¤ Ennovelas
+      ¤ Entrepeliculasyseries           ¤ Hdfull                            ¤ Pelisflix
+      ¤ Pelisxd                                   ¤ Poseidonhd                  ¤ Sololatino
+      ¤ Torrentpelis                          ¤ 18+ 
 
       [COLOR green][B]Novedades[/B][/COLOR]
 
