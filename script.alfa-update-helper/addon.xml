@@ -2,7 +2,6 @@
 <addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.7" provider-name="Alfa Develop group">
     <requires>
         <import addon="script.module.requests"/>
-        <import addon="script.module.xmltodict"/>
     </requires>
     <extension point="xbmc.python.script" library="default.py">
         <provides>executable</provides>
