@@ -56,9 +56,9 @@
     </requires>
     <extension point="xbmc.addon.repository" name="Alfa Add-on Repo">
         <dir>
-            <info compressed="false">https://github.com/alfa-addon/alfa-repo/raw/master/repository.alfa-addon/addon.xml</info>
-            <checksum>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/alfa-addon/alfa-repo/raw/master/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
