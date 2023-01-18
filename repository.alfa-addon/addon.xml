@@ -5,7 +5,7 @@
     </requires>
     <extension point="xbmc.addon.repository" name="Alfa Add-on Repo">
         <dir>
-            <info>https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/repository.alfa-addon/addon.xml</info>
+            <info compressed="false">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addon.xml</info>
             <checksum>https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master</datadir>
         </dir>
@@ -31,5 +31,6 @@
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
+        <source>https://github.com/alfa-addon/alfa-repo</source>
     </extension>
 </addon>
