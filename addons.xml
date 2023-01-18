@@ -58,7 +58,7 @@
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addon.xml</info>
             <checksum>https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
