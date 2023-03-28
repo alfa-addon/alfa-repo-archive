@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.8.8" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.8.9" provider-name="Alfa Addon">
 	<requires>
 		<import addon="script.module.requests"></import>
 		<import addon="script.module.beautifulsoup4" version="4.5.3"></import>
@@ -31,12 +31,13 @@
 		<news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Dontorrent                  ¤ Doramedplay                   ¤ Newpct1
-      ¤ +18
+      ¤ Cuevana3video                   ¤ Dontorrent                      ¤ Doramedplay
+      ¤ NewPct1                              ¤ +18
 
       [COLOR green][B]Novedades y Remasterizaciones[/B][/COLOR]
-      ¤ Bloghorror                  ¤ Divxtotal                           ¤ GranTorrent
-      ¤ Seriesflix                      ¤ Yts
+      ¤ Cinecalidad                         ¤ Dilo                                  ¤ Elitetorrent
+      ¤ Ennovelas                           ¤ MiTorrent                        ¤ MoviesDVDR
+      ¤ Playview                             ¤ SubTorrent
         
         </news>
 		<assets>
