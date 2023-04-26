@@ -88,7 +88,7 @@
         <source>https://github.com/alfa-addon/alfa-repo</source>
     </extension>
 </addon>
-  <addon id="plugin.video.alfa" name="Alfa" version="3.8.10" provider-name="Alfa Addon">
+  <addon id="plugin.video.alfa" name="Alfa" version="3.8.11" provider-name="Alfa Addon">
 	<requires>
 		<import addon="script.module.requests"/>
 		<import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -120,13 +120,10 @@
 		<news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Cuevana3video                   ¤ Dontorrent                    ¤ Entrepeliculasyseries
-      ¤ Hdfull                                   ¤ Newpct1                        ¤ Playdede
-      ¤ Seriesflix                              ¤ Veranime                       ¤ Animeonlineninja
-      ¤ +18
+      ¤ Cuevana3video                   ¤ Newpct1                        ¤ +18
 
       [COLOR green][B]Novedades y Remasterizaciones[/B][/COLOR]
-      ¤ Divxtotal
+      ¤ Dontorrent                          ¤ Rarbg                             ¤ Ennovelas
         
         </news>
 		<assets>
