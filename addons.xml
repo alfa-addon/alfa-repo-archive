@@ -1,5 +1,26 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <addons>
+  <addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.7" provider-name="Alfa Develop group">
+    <requires>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Herramienta de actualización para Alfa</summary>
+        <description lang="es">Si tienes problemas actualizando Alfa utiliza esta herramienta</description>
+        <summary lang="en">Updating tool for Alfa</summary>
+        <description lang="en">If you have problems updating Alfa use this tool</description>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+    <extension point="xbmc.service" library="default.py" start="login|startup">
+    </extension>
+
+</addon>
   <addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.7">
     <requires>
         <!--<import addon="xbmc.python" version="3.0.0"/>-->
@@ -31,27 +52,6 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon>
-  <addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.7" provider-name="Alfa Develop group">
-    <requires>
-        <import addon="script.module.requests"/>
-    </requires>
-    <extension point="xbmc.python.script" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="es">Herramienta de actualización para Alfa</summary>
-        <description lang="es">Si tienes problemas actualizando Alfa utiliza esta herramienta</description>
-        <summary lang="en">Updating tool for Alfa</summary>
-        <description lang="en">If you have problems updating Alfa use this tool</description>
-        <platform>all</platform>
-        <assets>
-            <icon>resources/icon.png</icon>
-        </assets>
-    </extension>
-    <extension point="xbmc.service" library="default.py" start="login|startup">
-    </extension>
-
 </addon>
   <addon id="repository.alfa-addon" name="[COLOR red]Alfa Add-on[/COLOR] Repo" version="1.0.8" provider-name="Alfa Development Group">
     <requires>
@@ -88,7 +88,7 @@
         <source>https://github.com/alfa-addon/alfa-repo</source>
     </extension>
 </addon>
-  <addon id="plugin.video.alfa" name="Alfa" version="3.8.11" provider-name="Alfa Addon">
+  <addon id="plugin.video.alfa" name="Alfa" version="3.8.12" provider-name="Alfa Addon">
 	<requires>
 		<import addon="script.module.requests"/>
 		<import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -120,10 +120,11 @@
 		<news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Cuevana3video                   ¤ Newpct1                        ¤ +18
+      ¤ Cuevana3video                   ¤ Newpct1                           ¤ Ennovelas
+      ¤ Hdfull                                   ¤ Poseidonhd                      ¤ +18
 
       [COLOR green][B]Novedades y Remasterizaciones[/B][/COLOR]
-      ¤ Dontorrent                          ¤ Rarbg                             ¤ Ennovelas
+      ¤ +18
         
         </news>
 		<assets>
