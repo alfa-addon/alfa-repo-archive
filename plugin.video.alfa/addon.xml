@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.9.1" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.9.2" provider-name="Alfa Addon">
 	<requires>
 		<import addon="script.module.requests"></import>
 		<import addon="script.module.beautifulsoup4" version="4.5.3"></import>
@@ -31,13 +31,11 @@
 		<news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Animeflv                                ¤ Cine24h                           ¤ Cinecalidad
-      ¤ Cuevana2espanol                 ¤ Dontorrent                      ¤ Ennovelas
-      ¤ Eztv                                        ¤ Hdfulls                             ¤ Pelisflix
-      ¤ Pelisplus                                ¤ Torrentpelis                     ¤ +18
+      ¤ TvAnime                         ¤ Dontorrent                    ¤ Gnula
+      ¤ Hdfull                              ¤ Playdede                       ¤ +18
 
       [COLOR green][B]Novedades y Remasterizaciones[/B][/COLOR]
-      ¤ +18                                         ¤ Hdfull                               ¤ Veranime
+      ¤ +18                                 ¤ Wolfmax4k                    ¤ Yts
         
         </news>
 		<assets>
