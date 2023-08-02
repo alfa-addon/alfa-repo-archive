@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.9.3" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.9.4" provider-name="Alfa Addon">
 	<requires>
 		<import addon="script.module.requests"></import>
 		<import addon="script.module.beautifulsoup4" version="4.5.3"></import>
@@ -31,11 +31,12 @@
 		<news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Cuevana3video                       ¤ Dontorrent                        ¤ Ennovelas
-      ¤ Pelisplus                                  ¤ +18
+      ¤ Dontorrent                          ¤ Ennovelas                         ¤ Ennovelas
+      ¤ Pelisflix                                 ¤ +18
 
       [COLOR green][B]Novedades y Remasterizaciones[/B][/COLOR]
-      ¤ +18                                           ¤ Mejortorrent
+      ¤ Serieslan                             ¤ Doramasqueen                ¤ Filmoves
+      ¤ +18 
         
         </news>
 		<assets>
