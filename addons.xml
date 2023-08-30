@@ -1,5 +1,112 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
 <addons>
+  <addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.7">
+    <requires>
+        <!--<import addon="xbmc.python" version="3.0.0"/>-->
+    </requires>
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info>http://127.0.0.1:61234/addons.xml</info>
+            <checksum>http://127.0.0.1:61234/addons.xml.md5</checksum>
+            <datadir>http://127.0.0.1:61234/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>See https://github.com/i96751414/repository.github/blob/master/LICENSE</license>
+        <source>https://github.com/i96751414/repository.github</source>
+        <summary lang="en">GitHub virtual Add-on repository for TORREST and others</summary>
+        <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates, like TORREST.</description>
+        <summary lang="es">Repositorio GitHub virtual para el Add-on TORREST y otros</summary>
+        <description lang="es">Repositorio configurable que actúa como un proxy para add-ons disponibles en GitHub, como TORREST.</description>
+        <news>
+            - Add platform check support
+            - Fix arch detection for aarch with 32 bits
+            - Add support to Kodi 20
+            - Small improvements (os_platform, logging)
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+  <addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.7" provider-name="Alfa Develop group">
+    <requires>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="es">Herramienta de actualización para Alfa</summary>
+        <description lang="es">Si tienes problemas actualizando Alfa utiliza esta herramienta</description>
+        <summary lang="en">Updating tool for Alfa</summary>
+        <description lang="en">If you have problems updating Alfa use this tool</description>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+    <extension point="xbmc.service" library="default.py" start="login|startup">
+    </extension>
+
+</addon>
+  <addon id="plugin.video.alfa" name="Alfa" version="3.9.6" provider-name="Alfa Addon">
+	<requires>
+		<import addon="script.module.requests"/>
+		<import addon="script.module.beautifulsoup4" version="4.5.3"/>
+		<import addon="script.module.html5lib" version="0.999.0"/>
+		<import addon="script.alfa-update-helper" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="ca">Navega amb Kodi per pàgines web.</summary>
+		<summary lang="en">Browse web pages using Kodi</summary>
+		<summary lang="es">Navega con Kodi por páginas web.</summary>
+		<summary lang="it">Sfoglia le pagine web con Kodi.</summary>
+		<summary lang="pt">Navegue por páginas da web com Kodi.</summary>
+		<description lang="ca">Navega amb Kodi per pàgines web per veure els vídeos de manera fàcil.</description>
+		<description lang="en">Browse web pages using Kodi to easily watch their video content.</description>
+		<description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
+		<description lang="it">Sfoglia le pagine web con Kodi per guardare facilmente i tuoi video.</description>
+		<description lang="pt">Navegue pelas páginas da web com Kodi para assistir seus vídeos facilmente.</description>
+		<disclaimer lang="ca">[COLOR red]Els propietaris i distribuïdors d'aquest complemento no proveeixen ni distribueixen cap contingut mostrat pel complemento ni tenen affiliación alguna amb els proveïdors de l'contingut.[/COLOR]</disclaimer>
+		<disclaimer lang="en">[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+		<disclaimer lang="es">[COLOR red]Los propietarios y distribuidores de este addon no proveen ni distribuyen ningún contenido mostrado por el addon ni tienen affiliación alguna con los proveedores del contenido.[/COLOR]</disclaimer>
+		<disclaimer lang="it">[COLOR red]I proprietari e i distributori di questo addon aggiuntivo non forniscono o distribuiscono alcun contenuto visualizzato dal addon aggiuntivo né hanno alcuna affiliazione con i fornitori di contenuti.[/COLOR]</disclaimer>
+		<disclaimer lang="pt">[COLOR red]Os proprietários e distribuidores deste addon não fornecem ou distribuem qualquer conteúdo exibido pelo addon nem têm qualquer afiliação com os provedores de conteúdo.[/COLOR]</disclaimer>
+		<platform>all</platform>
+		<license>GNU GPL v3</license>
+		<source>https://github.com/alfa-addon/addon</source>
+		<news>[B]Estos son los cambios para esta versión:[/B]
+
+      [COLOR green][B]Arreglos[/B][/COLOR]
+      ¤ Cinecalidad                         ¤ Cuevana2                          ¤ Cuevana2espanol
+      ¤ Dilo                                      ¤ Dontorrent                        ¤ Ennovelas
+      ¤ Poseidonhd                        ¤ Seriesantiguas                  ¤ AnimeJL
+      ¤ Henaojara                          ¤ +18
+
+      [COLOR green][B]Novedades y Remasterizaciones[/B][/COLOR]
+      ¤ +18                                      ¤ EstrenosCinesaa                ¤ Pelitorrent
+      ¤ TioDonghua                       ¤ AnimeTioDonghua
+      Gracias a @DieFeM por su colaboración en esta versión
+        
+        </news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/media/screenshots/1.jpg</screenshot>
+			<screenshot>resources/media/screenshots/2.jpg</screenshot>
+			<screenshot>resources/media/screenshots/3.jpg</screenshot>
+			<screenshot>resources/media/screenshots/4.jpg</screenshot>
+		</assets>
+	</extension>
+	<extension point="xbmc.service" library="videolibrary_service.py" start="login|startup"/>
+</addon>
   <addon id="repository.alfa-addon" name="[COLOR red]Alfa Add-on[/COLOR] Repo" version="1.0.8" provider-name="Alfa Development Group">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -34,111 +141,5 @@
         </assets>
         <source>https://github.com/alfa-addon/alfa-repo</source>
     </extension>
-</addon>
-  <addon id="script.alfa-update-helper" name="Alfa Update Helper" version="0.0.7" provider-name="Alfa Develop group">
-    <requires>
-        <import addon="script.module.requests"/>
-    </requires>
-    <extension point="xbmc.python.script" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="es">Herramienta de actualización para Alfa</summary>
-        <description lang="es">Si tienes problemas actualizando Alfa utiliza esta herramienta</description>
-        <summary lang="en">Updating tool for Alfa</summary>
-        <description lang="en">If you have problems updating Alfa use this tool</description>
-        <platform>all</platform>
-        <assets>
-            <icon>resources/icon.png</icon>
-        </assets>
-    </extension>
-    <extension point="xbmc.service" library="default.py" start="login|startup">
-    </extension>
-
-</addon>
-  <addon id="repository.github" name="GitHub Add-on repository" provider-name="i96751414" version="0.0.7">
-    <requires>
-        <!--<import addon="xbmc.python" version="3.0.0"/>-->
-    </requires>
-    <extension point="xbmc.addon.repository">
-        <dir>
-            <info>http://127.0.0.1:61234/addons.xml</info>
-            <checksum>http://127.0.0.1:61234/addons.xml.md5</checksum>
-            <datadir>http://127.0.0.1:61234/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.python.script" library="default.py"/>
-    <extension point="xbmc.service" library="service.py"/>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <license>See https://github.com/i96751414/repository.github/blob/master/LICENSE</license>
-        <source>https://github.com/i96751414/repository.github</source>
-        <summary lang="en">GitHub virtual Add-on repository for TORREST and others</summary>
-        <description lang="en">Customizable repository which acts as a proxy for defined GitHub users' add-ons updates, like TORREST.</description>
-        <summary lang="es">Repositorio GitHub virtual para el Add-on TORREST y otros</summary>
-        <description lang="es">Repositorio configurable que actúa como un proxy para add-ons disponibles en GitHub, como TORREST.</description>
-        <news>
-            - Add platform check support
-            - Fix arch detection for aarch with 32 bits
-            - Add support to Kodi 20
-            - Small improvements (os_platform, logging)
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-  <addon id="plugin.video.alfa" name="Alfa" version="3.9.5" provider-name="Alfa Addon">
-	<requires>
-		<import addon="script.module.requests"/>
-		<import addon="script.module.beautifulsoup4" version="4.5.3"/>
-		<import addon="script.module.html5lib" version="0.999.0"/>
-		<import addon="script.alfa-update-helper" optional="true"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="ca">Navega amb Kodi per pàgines web.</summary>
-		<summary lang="en">Browse web pages using Kodi</summary>
-		<summary lang="es">Navega con Kodi por páginas web.</summary>
-		<summary lang="it">Sfoglia le pagine web con Kodi.</summary>
-		<summary lang="pt">Navegue por páginas da web com Kodi.</summary>
-		<description lang="ca">Navega amb Kodi per pàgines web per veure els vídeos de manera fàcil.</description>
-		<description lang="en">Browse web pages using Kodi to easily watch their video content.</description>
-		<description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
-		<description lang="it">Sfoglia le pagine web con Kodi per guardare facilmente i tuoi video.</description>
-		<description lang="pt">Navegue pelas páginas da web com Kodi para assistir seus vídeos facilmente.</description>
-		<disclaimer lang="ca">[COLOR red]Els propietaris i distribuïdors d'aquest complemento no proveeixen ni distribueixen cap contingut mostrat pel complemento ni tenen affiliación alguna amb els proveïdors de l'contingut.[/COLOR]</disclaimer>
-		<disclaimer lang="en">[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
-		<disclaimer lang="es">[COLOR red]Los propietarios y distribuidores de este addon no proveen ni distribuyen ningún contenido mostrado por el addon ni tienen affiliación alguna con los proveedores del contenido.[/COLOR]</disclaimer>
-		<disclaimer lang="it">[COLOR red]I proprietari e i distributori di questo addon aggiuntivo non forniscono o distribuiscono alcun contenuto visualizzato dal addon aggiuntivo né hanno alcuna affiliazione con i fornitori di contenuti.[/COLOR]</disclaimer>
-		<disclaimer lang="pt">[COLOR red]Os proprietários e distribuidores deste addon não fornecem ou distribuem qualquer conteúdo exibido pelo addon nem têm qualquer afiliação com os provedores de conteúdo.[/COLOR]</disclaimer>
-		<platform>all</platform>
-		<license>GNU GPL v3</license>
-		<source>https://github.com/alfa-addon/addon</source>
-		<news>[B]Estos son los cambios para esta versión:[/B]
-
-      [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Grantorrent                     ¤ Cinecalidad                           ¤ Divxtotal
-      ¤ Ennovelas                        ¤ Entrepeliculasyseries           ¤ Eztv
-      ¤ Hdfull                               ¤ Pelisflix                                   ¤ Pelispanda
-      ¤ Seriesflix                          ¤ Seriesmetro                           ¤ Subtorrents
-
-      [COLOR green][B]Novedades y Remasterizaciones[/B][/COLOR]
-      ¤ AnimeFLV                        ¤ Henaojara                              ¤ AnimeJL
-      Gracias a @DieFeM por su colaboración creando un canal y remasterizar otro.
-        
-        </news>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/media/screenshots/1.jpg</screenshot>
-			<screenshot>resources/media/screenshots/2.jpg</screenshot>
-			<screenshot>resources/media/screenshots/3.jpg</screenshot>
-			<screenshot>resources/media/screenshots/4.jpg</screenshot>
-		</assets>
-	</extension>
-	<extension point="xbmc.service" library="videolibrary_service.py" start="login|startup"/>
 </addon>
 </addons>
