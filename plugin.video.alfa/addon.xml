@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.9.6" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.9.7" provider-name="Alfa Addon">
 	<requires>
 		<import addon="script.module.requests"></import>
 		<import addon="script.module.beautifulsoup4" version="4.5.3"></import>
 		<import addon="script.module.html5lib" version="0.999.0"></import>
 		<import addon="script.alfa-update-helper" optional="true"></import>
+		<import addon="script.module.pyqrcode" optional="true"></import>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -30,16 +31,15 @@
 		<source>https://github.com/alfa-addon/addon</source>
 		<news>[B]Estos son los cambios para esta versión:[/B]
 
-      [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Cinecalidad                         ¤ Cuevana2                          ¤ Cuevana2espanol
-      ¤ Dilo                                      ¤ Dontorrent                        ¤ Ennovelas
-      ¤ Poseidonhd                        ¤ Seriesantiguas                  ¤ AnimeJL
-      ¤ Henaojara                          ¤ +18
+      [COLOR yellow][B]Canales[/B][/COLOR]
+	  ¤ AnimeJL                       ¤ Anime TioDonghua      ¤ Mundo Donghua 
+	  ¤ AnimeFLV                    ¤ AnimeSpace                 ¤ SeriesKao
+	  ¤ SoloLatino                   ¤ TVAnime                       ¤ Ennovelas
+	  ¤ Dontorrent                  ¤ HDFull                           ¤ HenaoJara
+	  ¤ SeriesLan                     ¤ TioDonghua                  ¤ +18
 
-      [COLOR green][B]Novedades y Remasterizaciones[/B][/COLOR]
-      ¤ +18                                      ¤ EstrenosCinesaa                ¤ Pelitorrent
-      ¤ TioDonghua                       ¤ AnimeTioDonghua
-      Gracias a @DieFeM por su colaboración en esta versión
+      [COLOR yellow][B]Alfa[/B][/COLOR]
+	  Arreglos en videoteca y renumeración de anime
         
         </news>
 		<assets>
