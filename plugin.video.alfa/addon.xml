@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.9.9" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.9.10" provider-name="Alfa Addon">
 	<requires>
 		<import addon="script.module.requests"></import>
 		<import addon="script.module.beautifulsoup4" version="4.5.3"></import>
@@ -32,14 +32,16 @@
 		<news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR yellow][B]Arreglos[/B][/COLOR]
-	  ¤ HDFull                    ¤ +18
+	  ¤ AnimeJL                      ¤ Anime TioDonghua
+	  ¤ HenaoJara                  ¤ TioDonghua
+	  ¤ Ver Anime                  ¤ +18
 	  
       [COLOR yellow][B]Novedades[/B][/COLOR]
-	  ¤ Doramasflix
+	  ¤ +18
 
       [COLOR yellow][B]Alfa[/B][/COLOR]
-	  Nueva web de reportes de fallos:
-	  - Los logs no se borran tras el primer uso
+	  Ciertos ajustes han sido migrados a la configuración del add-on,
+	  por lo que habrá que re-configurarlas manualmente.
         
         </news>
 		<assets>
