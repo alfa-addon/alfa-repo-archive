@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<addon id="plugin.video.alfa" name="Alfa" version="3.9.10" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.9.11" provider-name="Alfa Addon">
 	<requires>
 		<import addon="script.module.requests"></import>
 		<import addon="script.module.beautifulsoup4" version="4.5.3"></import>
@@ -32,17 +32,16 @@
 		<news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR yellow][B]Arreglos[/B][/COLOR]
-	  ¤ AnimeJL                      ¤ Anime TioDonghua
-	  ¤ HenaoJara                  ¤ TioDonghua
-	  ¤ Ver Anime                  ¤ +18
+	  ¤ Allcallidad                     ¤ AnimeJL                        ¤ Doramasflix
+	  ¤ DoramedPlay               ¤ Estrenos Doramas       ¤ HenaoJara
+	  ¤ Cuevana2español        ¤ Cuevana3.video            ¤ DivxTotal
+	  ¤ Don Torrent                 ¤ Ennovelas                     ¤ Mitorrent
+	  ¤ Pelisflix                         ¤ Playview                        ¤ SeriesKao
+	  ¤ +18                               ¤ Uptobox: Desactivado  ¤ Cinecalidad
 	  
       [COLOR yellow][B]Novedades[/B][/COLOR]
-	  ¤ +18
+	  ¤ Playhub                        ¤ Veronline
 
-      [COLOR yellow][B]Alfa[/B][/COLOR]
-	  Ciertos ajustes han sido migrados a la configuración del add-on,
-	  por lo que habrá que re-configurarlas manualmente.
-        
         </news>
 		<assets>
 			<icon>resources/icon.png</icon>
